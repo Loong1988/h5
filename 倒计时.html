@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+
+</head>
+<body >
+	<style type="text/css">
+		#timeCounter{
+			font-size: 40px;
+			color: red;
+		}
+	</style>
+<p id="timeCounter">00: 00 : 00</p>
+
+</body>
+</html>
+<script>
+var timeCounter = (function() {
+	var n1=new Date('2016-12-14 14:11:05')//倒计时时间
+	var n2=new Date()
+	
+	var n=n2.getTime()-n1.getTime()
+	var mu=parseInt(n/1000)
+
+	console.log(mu)
+	
+	
+ var int;
+ var total = 7200-mu;
+ return function(elemID) {
+ 	
+ 	if(mu>7200){
+		console.log('超过2小时')
+		return;
+	}
+ 	
+ 	
+ 	
+  obj = document.getElementById(elemID);
+  var s = (total%60) < 10 ? ('0' + total%60) : total%60;
+  var h = total/3600 < 10 ? ('0' + parseInt(total/3600)) : parseInt(total/3600);
+  var m = (total-h*3600)/60 < 10 ? ('0' + parseInt((total-h*3600)/60)) : parseInt((total-h*3600)/60);
+  obj.innerHTML = h + ' : ' + m + ' : ' + s;
+  total--;
+  int = setTimeout("timeCounter('" + elemID + "')", 1000);
+  if(total < 0) {
+  	clearTimeout(int);
+  	console.log('timeover');
+  };
+ }
+})();
+timeCounter('timeCounter')
+</script>

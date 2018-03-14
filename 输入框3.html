@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.input .num{
+				border: 1px solid;
+				width: 50px;
+				height: 50px;
+				display: inline-block;
+				float: left;
+				font-size: 40px;
+				text-align: center;
+			}
+			.fh{
+				float: left;
+				font: 50px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<section class="input">
+			<span class="num"></span>
+			<span class="num"></span>
+			<!--<span class="fh">.</span>-->
+			<span class="num">0</span>
+			<span class="num">0.</span>%
+		</section>
+		
+		
+
+		
+
+	</body>
+</html>
+<script src="js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+/*var a='123';
+console.log(a.substr(-1))*/
+	$('.input>span').attr('contenteditable','true')
+	
+	$('.input>span').keyup(function (e) {
+		
+		
+		var now=$(this).html()
+		rex=/^[0-9]{1}$/;
+		if(!rex.test(now)){
+			//console.log(now)
+			$(this).html(now.substr(-1))
+		}
+
+		if(e.keyCode==8){//删除回退
+			if(now==""){
+				console.log("11111")
+				$(this).prev('.num').html("");
+				$(this).prev('.num').focus()
+			}else{
+				console.log("2222")
+				$(this).html("");
+			}
+			return;
+		}
+		
+		
+
+		//if(){}
+		//$(this).next('.num').focus()
+		//var c=$(this).next('.num').html();
+		//console.log(c)
+	})
+</script>

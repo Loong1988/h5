@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<script>
+			var iWidth = document.documentElement.clientWidth;
+
+			document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+			//			//利用javascript来动态设置（这种方法每一个宽度点都会有一个新的rem）
+			// 基准rem*window.innerWidth / 基准屏幕宽度 + 'px';
+			//console.log(iWidth / 16 + 'px--')
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/product_details.css" />
+	</head>
+
+	<body style="position:relative">
+
+		<div class="header">
+			<div onclick="window.location.href='product_list.html'" class="back">
+				<img src="img/fanhui.png">
+			</div>
+			支付方式
+		</div>
+		<!--背景-->
+		<section>
+			<div class="bac_cl">
+				<span class="details_cl">查看详情> </span>
+				<div style="clear: both;"></div>
+				<div class="bai_cl">
+					<span>12</span><span>%</span>
+				</div>
+				<div class="time_cl">
+					<span>期限一天</span>
+					<span>享受福利</span>
+				</div>
+			</div>
+		</section>
+		<!--背景style="padding-bottom: 3.05rem;-->
+		<section>
+			<div class="invest_cl">
+				<span>请输入投资金额</span>
+			</div>
+			<div class="box_money_cl">
+				<input type="text" class="input2" placeholder="500起投，以500的倍数递增" onblur="proceeds(this)" />
+			</div>
+			<div class="sel_discount_coupon">
+				请选择优惠券
+			</div>
+
+			<div class="box_bo_cl">
+				<ul>
+					<li></li>
+					<li>1000元本金卷</li>
+					<li></li>
+				</ul>
+			</div>
+			<!-- 注意： 无奖卷情况-->
+			<!--		<div class="box_bo_cl" id="no_discount">
+				<ul>
+					<li></li>
+					<li>您暂无奖卷可以使用</li>
+					<li></li>
+				</ul>
+			</div>-->
+
+			<div class="box_bo_cl2">
+				<ul>
+					<li></li>
+					<li>预计收益</li>
+					<li class="proceeds">●●●●</li>
+
+				</ul>
+			</div>
+
+		</section>
+
+		<!--底部按钮-->
+		<footer class="foot_cl">
+			<div class="safe_cl">
+				<span>联动优势携手小红理财保障资金安全</span>
+			</div>
+			<div class="button_cl">
+				<p>立即转入</p>
+			</div>
+		</footer>
+
+		<!--选择优惠券弹框-->
+		<section class='sel_discount_coupon_tk tk_sel_cl'>
+
+			<div class="header2">
+				<div class="back2">
+					<img src="img/取消icon.png" class="out">
+				</div>
+				支付方式
+			</div>
+			<div class="over_cl">
+				<ul class="discount_list_cl">
+					<li>
+						<div class="left_img">
+							<span class="xianjin">20</span>
+							<img src="img/矢量智能对象.png" />
+						</div>
+						<div class="right_img">
+							<img src="img/ICON2.png" class="cle" />
+						</div>
+					</li>
+					<li>
+						<div class="left_img">
+							<span class="jiaxi">2%</span>
+							<img src="img/图层-2.png" />
+						</div>
+						<div class="right_img">
+							<img src="img/ICON2.png" class="cle" />
+						</div>
+					</li>
+					<li>
+						<div class="left_img">
+							<span class="benjin">9999</span>
+							<img src="img/图层-1.png" />
+						</div>
+						<div class="right_img benjin">
+
+							<img src="img/ICON2.png" class="cle" />
+						</div>
+					</li>
+					<li>
+						<div class="left_img">
+							<span class="jiaxi">2%</span>
+							<img src="img/图层-2.png" />
+						</div>
+						<div class="right_img">
+							<img src="img/ICON2.png" class="cle" />
+						</div>
+					</li>
+					<li>
+						<div class="left_img">
+							<span class="benjin">9999</span>
+							<img src="img/图层-1.png" />
+						</div>
+						<div class="right_img benjin">
+
+							<img src="img/ICON2.png" class="cle" />
+						</div>
+					</li>
+					<li>
+						<div class="left_img">
+							<span class="jiaxi">2%</span>
+							<img src="img/图层-2.png" />
+						</div>
+						<div class="right_img">
+							<img src="img/ICON2.png" class="cle" />
+						</div>
+					</li>
+					<li>
+						<div class="left_img">
+							<span class="benjin">9999</span>
+							<img src="img/图层-1.png" />
+						</div>
+						<div class="right_img benjin">
+
+							<img src="img/ICON2.png" class="cle" />
+						</div>
+					</li>
+
+				</ul>
+			</div>
+			<footer class="discount_list_foot">
+				
+				<div>不适用优惠券</div>
+				<div>确认</div>
+			</footer>
+			<style type="text/css">
+				.discount_list_foot>div{
+					width: 8rem;
+					float: left;
+				}
+				.discount_list_foot:after{
+					    content: '';
+					    width: 1px;
+					    background: #dddddd;
+					    height: 2rem;
+					    display: inline-block;
+					    position: relative;
+					    top: -2rem;
+				}
+			</style>
+		</section>
+	</body>
+<li class="coupon_img1"  id='head_img' style="display: none;"></li>
+</html>
+<script src="../js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function() {
+
+		var h = window.screen.availHeight;
+		$('.sel_discount_coupon_tk').height(h)
+		$('.sel_discount_coupon_tk').css('top', h)
+
+	})
+
+	function proceeds(obj) { //验证输入金额
+		var rex = /^\+?[1-9][0-9]*$/;
+		var input_money = obj.value;
+		if(!rex.test(input_money) || input_money % 500 != 0) {
+			$('.proceeds').html("●●●●").removeClass('red_cl')
+			alert('请输入正确的投资金额')
+			return;
+		}
+		//计算收益的公式
+		var money = input_money * 0.1; //计算后的结果
+		$('.proceeds').html(money + '元').addClass('red_cl')
+	}
+
+	$('.button_cl>p').click(function() { //立即转入按钮-非空验证
+
+		var val = $('.input2').val()
+
+		if(val == '') {
+			alert('请输入正确的投资金额')
+			return;
+		}
+
+	})
+
+	$('.box_bo_cl>ul').click(function() {
+		//点击滑动优惠券列表
+		$('.sel_discount_coupon_tk').show().addClass('tk_sel_cl')
+		$('.sel_discount_coupon_tk').animate({
+			top: '0'
+		}, 200, function() {
+			$('.header2').addClass('header2_add');
+			$('.discount_list_foot').addClass('discount_list_foot_add')
+		})
+	})
+
+	$('.discount_list_cl li').click(function() {
+		$('.discount_list_cl li').find('.cle').attr('src', 'img/ICON2.png')
+		$('.discount_list_cl li').removeClass('act_list_cl')
+		$(this).addClass('act_list_cl')
+
+		$(this).find('.cle').attr('src', 'img/ICON.png')
+	})
+
+	$('.out,.discount_list_foot').click(function() {
+		$('.header2').removeClass('header2_add');
+		$('.discount_list_foot').removeClass('discount_list_foot_add')
+		$('.sel_discount_coupon_tk').animate({
+			top: '1000'
+		}, 200, function() {
+			$('.sel_discount_coupon_tk').css({
+				display: 'none',
+
+			})
+		})
+
+	})
+
+//设置底部按钮
+var oHeight = $(document).innerHeight(); //浏览器可视的高度
+//3.05
+var bili=document.documentElement.clientWidth/16;
+var atop=oHeight-3.05*bili-1
+console.log(atop)
+$('.foot_cl').css('top',atop+'px')
+
+
+var t=$('#head_img').is(':hidden');
+console.log(t)
+</script>

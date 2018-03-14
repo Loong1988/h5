@@ -1,0 +1,14 @@
+	var ul=$('.counsel_cl>li').length;
+	var bili=document.documentElement.clientWidth/16;
+	var all=(0.55+7.875+(ul*3.25))*bili
+
+    $(window).scroll(function(){
+		var huadong = $(document).scrollTop();
+		console.log(huadong+'滚动的距离')
+		if(huadong>=all){
+			$('#top_cl').addClass('guss')
+		}else{
+			$('#top_cl').removeClass('guss')
+		}
+		
+	}) 

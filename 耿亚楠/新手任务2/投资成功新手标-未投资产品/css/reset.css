@@ -1,0 +1,65 @@
+/*20140320 lv start */
+/*common start*/
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0;font-size: 14px;font-family: "Microsoft Yahei","微软雅黑","SimSun","宋体","Arial Narrow",HELVETICA,"Microsoft Yahei","微软雅黑";}
+body{text-align:left;font:14px/20px "Microsoft Yahei","微软雅黑","SimSun","宋体","Arial Narrow",HELVETICA;background-color:#fff;color:#757575;min-width: 1142px}
+button,input,select,textarea{font-size:14px;font-family:"SimSun","宋体","Arial Narrow",HELVETICA;outline:none;margin:0;color:#19538a;}
+input{padding-top:0;padding-bottom:0;}
+input::-moz-focus-inner{border:none;padding:0;}
+select,input{vertical-align:middle; }
+button{cursor:pointer;border:none;padding:0;background:none;text-align:center;}
+fieldset,img{border:none;}
+textarea{resize:none;}
+a:focus,input:focus,textarea:focus{outline:none;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+em,strong,i{font-style:normal;}
+table{border-collapse:collapse;border-spacing:0;width:100%;}
+li{list-style: none;}
+input[type=button]{cursor:pointer; }
+/*clear*/
+.cf:after{clear:both;content:"";display:block;}
+.cf{*zoom:1}
+/*float*/
+.left{float:left;}
+.right{float:right;}
+/*font weight*/
+.fb{font-weight:bold;}
+/*text align*/
+.align_l{text-align:left;}
+.align_r{text-align:right;}
+.align_c{text-align:center;}
+/*link*/
+a{color:#3f3f3f;text-decoration:none;}
+a:visited{color:#19538a;}
+a:hover,a:active,a:focus{color:#173b5d;}
+
+a.gray:link,a.gray:visited{color:#4d4d4d;}
+a.gray:hover,a.gray:active{color:#a1a1a1;}
+
+/*color*/
+.gray_color{color:#a1a1a1;}
+.red_color{color:#F00;}
+
+/*bg color*/
+.main_wrapper{padding:15px 0 0 20px; min-width:800px;}
+.w_4{width:4%;}
+.w_5{width:4%;}
+.w_10{width:9%;}
+.w_11{width: 11%;}
+.w_15{width:14%;}
+.w_20{width:20%;}
+.w_25{width:25%;}
+.w_30{width:30%;}
+.w_35{width:35%;}
+.w_40{width:40%;}
+.w_45{width:45%;}
+.w_50{width:50%;}
+.w_55{width:55%;}
+.w_60{width:60%;}
+.w_65{width:65%;}
+.w_70{width:70%;}
+.w_75{width:75%;}
+.w_100{width:100%;}
+
+/*common end*/
+

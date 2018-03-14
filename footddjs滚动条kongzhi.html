@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>var iWidth = document.documentElement.clientWidth;
+
+document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+//			//利用javascript来动态设置（这种方法每一个宽度点都会有一个新的rem）
+// 基准rem*window.innerWidth / 基准屏幕宽度 + 'px';
+//console.log(iWidth / 16 + 'px--')</script>
+		<style type="text/css">* {
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+}
+
+.foot{
+	height: 2rem;
+	
+	background: blueviolet;
+	width: 16rem;
+	position: absolute;
+	
+	z-index: 10;
+	
+}
+		
+		</style>
+		<script src="js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+		
+		<header style="height: 2rem; background: red;">
+			adsf
+		</header>
+		
+		
+		<input type="" name="" id="" value="" />
+		<section style="background: beige; height: 33rem;">
+			<ul>
+				<li>01</li>
+				<li>02</li>
+				<li>03</li>
+				<li>04</li>
+				<li>05</li>
+				<li>06</li>
+				<li>07</li>
+				<li>08</li>
+				<li>09</li>
+				<li>10</li>
+				<li>11</li>
+				<li>12</li>
+				<li>13</li>
+				<li>14</li>
+				<li>15</li>
+				<li>16</li>
+				<li>17</li>
+				<li>18</li>
+				<li>19</li>
+				<li>20</li>
+							<li>11</li>
+				<li>12</li>
+				<li>13</li>
+				<li>14</li>
+				<li>15</li>
+				<li>16</li>
+				<li>17</li>
+				<li>18</li>
+				<li>19</li>
+				<li>20</li>
+			</ul>
+		</section>
+		
+		
+		<footer style="" class="foot">
+			foor
+		</footer>
+	</body>
+</html>
+<script type="text/javascript">
+var iWidth = document.documentElement.clientWidth;
+var b=iWidth / 16
+
+	var h=$(window).height()-b*2;
+	console.log(h)
+	$('.foot').css('top',h)
+	
+	$(window).scroll(function () {
+		var huadong= $(this).scrollTop();
+		
+		$('.foot').css('top',h+huadong)
+		console.log(7)
+	})
+</script>

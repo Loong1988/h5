@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>帐户信息</title>
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; user-scalable=0;" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<link href="css/common.css" rel="stylesheet" type="text/css"/>
+<link href="css/AccountInformation.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/16+'px';	
+
+});
+</script>
+</head>
+<body>
+<div class="cj_herder">
+	<a href="#"><img src="images/fanhuojian_03.png"></a>
+	<h1>账户信息</h1>
+</div>
+<div class="cont_gjn">
+    <div class="cont_gjn_t">
+        <h2>我的头像</h2>
+        <img src="images/touxiang.png">
+    </div>
+    <div class="cont_gjn_b">
+        <h3>昵称</h3>
+        <p>
+        	<span class="name_span">
+        	小红大大
+        </span>
+        <input type="" class="new_name" onblur="rem_name()"/>
+        	<img src="images/icon.png"></p>
+    </div>
+</div>
+<div class="cont1_gjn">
+    <div class="cont1_gjn_t">
+        <h4>身份信息</h4>
+        <p>**红(已认证)</p>
+    </div>
+    <div class="cont1_gjn_t">
+        <h4>身份认证</h4>
+        <p>12010319******2941(已认证)</p>
+    </div>
+    <div class="cont1_gjn_t" style="border-bottom: none;">
+        <h4>手机号</h4>
+        <p>13654872234</p>
+    </div>
+</div>
+
+
+<style type="text/css">
+	.new_name{
+		display: none;
+		border: none;
+		font-size: 0.6rem;
+		color: #666666;
+		text-indent: 10rem;
+    	width: 10rem;
+
+	}
+</style>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+	$('.cont_gjn_b').click(function () {
+		$('.name_span').hide()
+		$('.new_name').show()
+		$('.new_name').focus()		
+	})
+	
+	function rem_name () {
+		var newname=$('.new_name').val()
+		$('.name_span').html(newname);
+		$('.name_span').show()
+		$('.new_name').val('').hide()
+	}
+</script>
+
+</body>
+</html>

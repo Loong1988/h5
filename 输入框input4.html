@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+.inp>input{
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	color: #333333;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+}
+.inp span{
+	font-size: 40px;
+}
+
+		</style>
+	</head>
+	<body>
+		<section class="inp">
+			<input type="" name="" class="put1" value=""  maxlength="1" placeholder="0"/>
+			<input type="" name="" class="put2" value="" maxlength="1" placeholder="0"/>
+			<span>.</span>
+			<input type="" name="" class="put3" value="" maxlength="1" placeholder="0"/>
+			<input type="" name="" class="put4" value="" maxlength="1" placeholder="0"/>
+		</section>
+	</body>
+</html>
+
+ <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+<script type="text/javascript">
+$('.inp>input').keyup(function (event) {//获取下一个焦点
+	if(event.keyCode!=8){//这个判断为了兼容火狐   火狐的this 不会随焦点变化而变化
+		var num=$(this).attr('class').substr(-1)
+		num=parseInt(num)+1
+		$('.put'+num).focus()
+	}
+})
+
+$('.inp>input').keyup(function (event) {//删除
+	if(event.keyCode==8){//删除的keycode
+		var num=$('.inp>input:focus').attr('class').substr(-1)
+		num=parseInt(num)-1
+		console.log(num)
+		$('.put'+num).focus()
+	}
+})	
+
+</script>

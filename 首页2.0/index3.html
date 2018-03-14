@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我要领取</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<script>
+			var iWidth = document.documentElement.clientWidth;
+
+			document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+		</script>
+		<script src="../js/prefixfree.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="index2.css" />
+	<script src="../js/jquery3.1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<img src="../img/aa.jpg" alt=""  style="width: 100vw; height: 50vw;"/>
+		<!--2017-->
+		<nav class="bigbox">
+		<section class="banner_big">
+			<div class="d1">
+				<img src="img/index_laba.png"/>
+				<h6>小红公告</h6>
+				<div class="line"></div>
+			</div>
+			<div class="d2">
+				<ul class="listmsg">
+					<li><span>手动阀手动阀手动阀手动阀手动阀</span> <span>2017.01.02</span></li>
+					<li><span>2222fffffffff</span> <span>2017.01.02</span></li>
+					<li><span>33ddddddddddd</span> <span>2017.01.02</span></li>
+					<li><span>444fffff</span> <span>2017.01.02</span></li>
+				</ul>
+			</div>
+			<div class="d3">
+				sa
+			</div>
+		</section>
+		</nav>
+		<style type="text/css">
+			.banner_big .d3{
+				flex: 0.3;
+				background: url(img/index_laba.png) no-repeat ;
+			}
+			.banner_big .d1 .line{
+				
+				width:0.5rem;
+				height: 0.5rem;
+				border-right:1px solid red ;
+			}
+			.bigbox{
+				    background:#f7f7f7 url(img/vip.png) no-repeat center;
+			}
+			.banner_big{
+				height: 10vw;
+				width: 95%;
+				margin: auto;
+				display: flex;
+			}
+			.banner_big>div{
+				height: 100%;
+				line-height: 10vw;
+			}
+			.banner_big .d1{
+				flex: 1;
+				display: flex;
+				align-items: center;
+			}
+			.banner_big .d1 img{
+				width: 5vw;
+				height: 5vw;
+			}
+			.banner_big .d1 h6{
+				margin-left: 0.4rem;
+				font-size: 0.6rem;
+				color: #f75731;
+			}
+			.banner_big .d2{
+				flex: 2.2;
+				overflow: hidden;
+			}
+			.listmsg li{
+				height: 10vw;
+				    display: flex;
+				    font-size: 0.6rem;
+			
+			}
+			.listmsg li>span:nth-child(1){
+				display: inline-block;
+				    width:52%;
+				        overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+				    
+			}
+			.listmsg li>span:nth-child(2){
+				color: #f75731;
+				/*font-size: 3vw;*/
+			}
+			.listmsg{
+				position: relative;
+				background: gray;
+				    width: 55vw;
+				
+				/*animation: listmsg 1s forwards;*/
+				
+			}
+
+		</style>
+		<script type="text/javascript">
+			var index=0;
+			var list_count=$('.listmsg>li').length;
+//			复制第一条
+			
+			var one=$('.listmsg>li:eq(0)').clone()
+			$('.listmsg').append(one)
+//			var listmsg=setInterval(slider,2500);
+			
+			
+			function slider() {
+				index++;
+				toph=-10*index;
+				$('.listmsg').animate({top:toph+'vw'});
+				if(index==list_count){
+					clearInterval(listmsg)
+					$('.listmsg').animate({top:0},0);
+					//清空下标，继续循环
+					index=0;
+					listmsg=setInterval(slider,2500);
+				}
+			}
+			
+		</script>
+		
+		
+		
+		<!--2017-->
+		<section class="new_obj">
+			<header>
+				新手专享
+			</header>
+<style type="text/css">
+	.symbol{
+		font-size: 1.5rem;
+	}
+	.symbol2{
+		font-size: 1.5rem;
+		    vertical-align: top;
+	}
+	.dl_left span{
+		letter-spacing: -0.8rem;
+	}
+</style>
+
+
+			<div class="body_cl_new">
+				<dl class="dl_left">
+					<dt>
+
+						<span class="p1" wicket:id="rate">7</span>
+						<span class="symbol">%</span>
+						<span class="symbol2">+</span>
+						<span class="p2" wicket:id="addRate">7</span>
+						<span  class="symbol">%</span>
+					
+					</dt>
+					<dd>年化</dd>
+				</dl>
+				<dl class="dl_right">
+					<dt><span class="p1">21</span><span class="p2">天</span></dt>
+					<dd>年化</dd>
+				</dl>
+			</div>
+
+			<ul class="bar_cl">
+				<li>
+					<div class="box_cl">
+						<div class="sma_cl" style="width: 0%;"></div>
+					</div>
+				</li>
+				<li class="percent_cl">
+					<span class="span1_cl">142</span>
+					<span>/</span>
+					<span class="span2_cl">200</span>
+					<span style="color: #aaaaaa;">万</span>
+				</li>
+			</ul>
+			<p class="p_btn st1">立即投资</p>
+			<p class="p_btn st2">已抢光</p>
+			<p class="p_btn st3">已完成</p>
+			
+			
+		</section>
+
+		<section class="ranking_list">
+			<div class="ranking_head">投资排行榜</div>
+			<div class="ranking_box">
+				
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tbody class="table_body">
+					<tr>
+						<td><img src="img/vip1.png"/></td>
+						<td>15866662222</td>
+						<td>新手</td>
+						<td>358662元</td>
+					</tr>
+					<tr>
+						<td><img src="img/vip2.png"/></td>
+						<td>15866662222</td>
+						<td>VIP</td>
+						<td>158662元</td>
+					</tr>
+					<tr>
+						<td><img src="img/vip3.png"/></td>
+						<td>15866669900</td>
+						<td>VIP</td>
+						<td>158662元</td>
+					</tr>
+					<tr >
+						<td class="list_h">4</td>
+						<td>15866661111</td>
+						<td>VIP</td>
+						<td>662元</td>
+					</tr>
+					<tr >
+						<td class="list_h">5</td>
+						<td>15866662232</td>
+						<td>VIP</td>
+						<td>62元</td>
+					</tr>
+										<tr >
+						<td class="list_h">6</td>
+						<td>15866661111</td>
+						<td>VIP</td>
+						<td>662元</td>
+					</tr>
+					<tr >
+						<td class="list_h">7</td>
+						<td>15866662232</td>
+						<td>VIP</td>
+						<td>62元</td>
+					</tr>
+										<tr >
+						<td class="list_h">8</td>
+						<td>15866661111</td>
+						<td>VIP</td>
+						<td>662元</td>
+					</tr>
+<!--					<tr >
+						<td class="list_h">9</td>
+						<td>15866662232</td>
+						<td>VIP</td>
+						<td>62元</td>
+					</tr>
+					<tr >
+						<td class="list_h">10</td>
+						<td>15866662232</td>
+						<td>VIP</td>
+						<td>62元</td>
+					</tr>-->
+					</tbody>
+					<tfoot>
+						
+					</tfoot>
+				</table>
+			</div>
+		</section>
+
+	</body>
+
+</html>
+
+<script type="text/javascript">
+	$(function() {
+		//进度条动画
+		var zi = $('.percent_cl>.span1_cl').html()
+		var mu = $('.percent_cl>.span2_cl').html()
+		var w = (zi / mu) * 100
+
+		$('.sma_cl').animate({
+			width: w + '%'
+		}, 800)
+		//电话号码隐藏中间4位
+		$('table tr').each(function(i,x){
+			var tell=$(this).children().eq(1).html()
+			var tell2=tell.substr(0,3)+'****'+tell.substr(7,10)
+			$(this).children().eq(1).html(tell2)			
+		})
+		
+		
+		$('table tfoot').append($('.table_body').html());
+		var h=$('.ranking_box .table_body tr').length;
+		var remh=-h*1.6;
+		
+
+		//排行榜轮播
+		setInterval(function () {
+			$('.ranking_box>table').animate({
+			top:remh+'rem'
+			},10000,'linear',function () {
+				$('.ranking_box>table').css({top:0})
+			})
+		},0)
+
+	})
+</script>

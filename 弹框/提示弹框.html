@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+document.addEventListener('DOMContentLoaded',function(){
+
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/16+'px';	
+
+});
+</script>
+<link rel="stylesheet" type="text/css" href="css/tk.css"/>
+<style type="text/css">
+	html{
+		height: 100%;
+		background: #eee;
+	}
+	.gray_main{
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.3);
+		/*display: none;*/
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		opacity: 0;
+		
+	}
+	.tk_main{
+	width: 8rem;
+	height: 6rem;
+	background: #FFFFFF;
+	position: fixed;
+	z-index: -1;	
+/*	display: none;*/
+	top: 6rem;
+	left: 4rem;
+	border-radius: 5px;
+	opacity: 0;
+	}
+	
+	.tk_main img {
+    width: 1.45rem;
+    height: 1.45rem;
+    display: block;
+    margin: auto;
+    margin-top: 0.9rem;
+}
+.tk_main p {
+    font-size: 0.6rem;
+    color: #444444;
+    margin-top: 0.9rem;
+    text-align: center;
+    padding: 0 0.6rem;
+}
+@-webkit-keyframes ss{
+	from{display: block;}
+	90%{opacity: 100%;}
+	80%{opacity: 100%;}
+	70%{opacity: 100%;}
+	60%{opacity: 100%;}
+	50%{opacity: 100%;}
+	40%{opacity: 90%;}		
+	30%{opacity: 80%;}
+	20%{opacity: 50%;}
+	10%{opacity:5%;}
+	to{opacity: 0;}
+	
+}
+@keyframes ss{
+	from{display: block;}
+	90%{opacity: 100%;}
+	80%{opacity: 100%;}
+	70%{opacity: 100%;}
+	60%{opacity: 100%;}
+	50%{opacity: 100%;}
+	40%{opacity: 90%;}		
+	30%{opacity: 80%;}
+	20%{opacity: 50%;}
+	10%{opacity:5%;}
+	to{opacity: 0;}
+}
+.show{
+	animation: ss 1s;
+	animation-delay:2s;
+	-webkit-animation:ss 1s;
+	-webkit-animation-delay: 2s;
+	z-index: 11;
+	opacity: 1;
+}
+
+
+</style>
+	</head>
+	<body>
+		<div style="background: red;" class="">asdf</div>
+		
+		<button onclick="tk()">测试</button>	
+		
+		<button onclick="tk2()">测试3</button>	
+		<nav class="newtk">
+			<img src="img/guang.png" alt="" class="light" />
+			
+			<div class="tk3 tkwx" >
+				<div class="titimg wx" ></div>
+				<div class="p1"><span  class="text">已完成订单收入</span><span class="red">12.0元</span></div>
+				<div class="p2">将在2个工作日内转入</div>
+				<div class="btn">我知道了</div>
+			</div>
+
+			<div class="tk3 tkpay" >
+				<div class="titimg pay" ></div>
+				<div class="p1"><span  class="text">发单审核需要</span><span class="red">1天</span>时间</div>
+				<div class="p2">请耐心等待...</div>
+				<div class="btn">查看订单</div>
+			</div>
+			
+			<div class="tk3 tkmi" >
+				<div class="titimg mi"  ></div>
+				<div class="p1"><span  class="text">恭喜您成为</span><span class="red">蜜糖1</span></div>
+				<div class="p2">新特权已开启</div>
+				<div class="btn">查看特权</div>
+			</div>
+		</nav>
+		
+		<div class="gray_main"></div>
+		<div class="tk_main">
+			<img src="img/tkimg1.png"/>
+			<p class="ptext_main">输入有误</p>
+		</div>
+	</body>
+</html>
+<script src="../js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+
+	
+	function tk () {
+		
+		$('.gray_main, .tk_main').addClass('show');
+		setTimeout(function(){
+			$('.gray_main, .tk_main').removeClass('show');			
+		},3000)
+	}
+
+function tk2() {
+	$('.newtk .light,.tkmi').show()
+}
+
+</script>

@@ -1,0 +1,243 @@
+html,body{
+	height: 100%;
+	background:#eeeeee ;
+}
+.header {
+    /*background: #f75831 none repeat scroll 0 0;*/
+    color: white;
+    font-size: 0.8rem;
+    height: 2rem;
+    /* left: 0; */
+    line-height: 2rem;
+    /* position: absolute; */
+    text-align: center;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.back {
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 5px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.back img {
+    height: 0.825rem;
+    width: 0.55rem;
+}
+.new_header{
+ height: 7.5rem;
+    width: 16rem;
+    background: url(../img/me_head.png) no-repeat;	
+     background-size: 16rem 7.5rem;
+}
+.bac_cl {
+    /*background: url(../img/beijing.png) no-repeat;*/
+    height: 5rem;
+    width: 16rem;
+   
+
+}
+.bac_cl .bai_cl {
+    text-align: center;
+    color: #FFF228;
+    font-weight: 900;
+}
+.bac_cl .bai_cl>span:nth-child(1) {
+	/*margin-top: 0.5rem;*/
+    font-size: 2.5rem;
+    display: block;
+}
+.bai_cl>p{
+	font-size: 0.7rem;
+	font-weight: normal;
+}
+body {
+    font-family: "Microsoft Yahei", "΢���ź�";
+}
+.me_main {
+    overflow: hidden;
+    width: 16rem;
+}
+.me_main>div {
+    height: 4rem;
+    width: calc(8rem - 0.5px);
+    float: left;
+    border-top: 1px solid #EEEEEE;
+    text-align: center;
+}
+.me_main>div .acc_p1{
+	margin-top: 1rem;
+	font-size: 1rem;
+	color: #F75731;
+}
+.me_main>div .acc_p2{
+	margin-top: 0.25rem;
+	font-size: 0.6rem;
+	color: #AAAAAA;
+}
+.me_main .d01, .d03 {
+    border-right: 1px solid #EEEEEE;
+}
+ .me_main{
+	box-shadow: 2px 2px 2px #d9d9d9;
+	background: #ffffff;
+	margin-bottom: 0.6rem;
+}
+.me_list{
+		box-shadow: 2px 2px 2px #d9d9d9;
+		overflow: hidden;
+		padding-bottom: 3.75rem;
+}
+.me_list li{
+	height: 2rem;
+}
+.me_list>ul>li{
+	
+	width: 16rem;
+	float: left;
+	border-bottom:1px solid #EEEEEE;
+	background: #FFFFFF;
+}
+.my_cord>li{
+/*		width:16rem ;
+	height: 2rem;*/
+	float: left;
+	line-height: 2rem;
+}
+.me_list .acc_sp1{
+font-size: 0.625rem;
+color:#666666 ;
+float: left;
+}
+.me_list .acc_sp2{
+font-size: 0.625rem;
+color:#333333 ;
+float: right;
+}
+
+.my_pwd>li:nth-child(1){
+
+	background: url(../img/my_4.png) no-repeat center;
+	background-size: 1rem 1rem;
+}
+.my_bank_card>li:nth-child(1){
+
+	background: url(../img/my_3.png) no-repeat center;
+	background-size: 1rem 1rem;
+}
+.my_cord>li:nth-child(1){
+
+	background: url(../img/my_1.png) no-repeat center;
+	background-size: 1rem 1rem;
+}
+.my_cord>li:nth-child(2){
+	width:13.5rem ;
+
+}
+.my_bank>li:nth-child(1){
+
+	background: url(../img/my_2.png) no-repeat center;
+	background-size: 1rem 1rem;
+}
+.my_inf_list>li:nth-child(1){
+	width:2rem ;
+
+}
+
+.my_inf_list>li{
+	float: left;
+}
+.ul_li_3>li:nth-child(2){
+	width:12.5rem;
+	font-size: 0.625rem;
+	line-height: 2rem;
+}
+.ul_li_3>li:nth-child(3){
+	width:1.5rem;
+	background: url(../img/tiaozhuan.png) no-repeat center;
+	background-size: 0.5rem;
+	
+}
+.ul_li_3 .acc_sp2{
+	float: right;
+}
+/*底部按钮cl*/
+
+.foot_cl .safe_cl {
+	font-size: 0.45rem;
+	height: 1.05rem;
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+}
+
+.foot_cl {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.safe_cl {
+	text-align: center;
+	background: white;
+}
+
+.safe_cl span {
+	background-image: url(../img/zhifu.png);
+	background-repeat: no-repeat;
+	background-size: 0.75rem 0.75rem;
+	background-position: 0 0.15rem;
+	text-indent: 1rem;
+	color: #f75731;
+	/*margin-left: 20%;
+				width: 60%;*/
+	display: inline-block;
+	line-height: 1.1rem;
+}
+.button_cl{
+	width: 16rem;
+}
+.button_cl>p {
+	height: 2rem;
+
+	text-align: center;
+	line-height: 2rem;
+	width: 8rem;
+	float: left;
+}
+.button_cl .btn_p1{
+	color: #f75831;
+	background: #ffffff;	
+}
+.button_cl .btn_p2{
+	color: #ffffff;
+	background: #f75831;	
+}
+/*底部按钮cl*/
+
+.ques_append{
+	margin-top: 0.6rem;
+}
+.me_list ul{overflow: hidden; box-shadow: 2px 2px 2px #d9d9d9;}
+.out_account{
+	margin-top: 0.6rem;
+}
+.ques>li:nth-child(1) {
+    background: url(../img/question.png) no-repeat center;
+    background-size: 1rem 1rem;
+}
+.us>li:nth-child(1) {
+    background: url(../img/us.png) no-repeat center;
+    background-size: 1rem 1rem;
+}
+.out_account li{
+	    font-size: 0.625rem;
+    line-height: 2rem;
+    color: #AAAAAA;
+    text-align: center;
+}

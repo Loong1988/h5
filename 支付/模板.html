@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我要领取</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<script>var iWidth = document.documentElement.clientWidth;
+
+document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';</script>
+<link rel="stylesheet" type="text/css" href="css/product_details.css"/>
+	</head>
+	
+	<style type="text/css">body {
+	background: #EEEEEE;
+}
+
+.num_tell {
+	color: #EEEEEE;
+	font-size: 1rem;
+	text-align: center;
+	margin-top: 1.75rem;
+	margin-bottom: 1rem;
+}
+.code4 input{    width: 9rem;
+    height: 2rem;
+    font-size: 1.01rem;
+    background: transparent;
+    border-bottom: solid 1px #ffffc2;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    outline: none;
+    }
+ .code4 img{
+ 	height: 1.2rem;
+ 	width:2.4rem ;
+ 	border-radius: 0.2rem;
+ 	vertical-align: middle;
+ 	}
+ .code4{
+ 	text-align: center;height: 2rem;
+ 	
+ }
+ .code4>p{
+ 	width: 80%;
+ 	margin: auto;
+ 	border-bottom:solid 1px #f6a99a;
+ }
+ .tell_code>span{
+ 	display: inline-block;
+ 	font-size: 0.5rem;
+ 	color: #EEEEEE;
+ 	width:calc();
+ 	background: #ffa52d;
+ 	height: 1.25rem;
+ 	padding: 0 0.5rem;
+ 	border-radius: 0.625rem;
+ 	vertical-align: middle;
+ 	line-height: 1.25rem;
+ }
+	</style>
+
+	<body>
+
+
+
+		<div class="header">
+			<div onclick="window.location.href='product_list.html'" class="back">
+				<img src="img/fanhui.png">
+			</div>
+			我要领取
+		</div>
+
+<div>
+	123123
+</div>
+<style type="text/css">
+	.sptt>span{
+		
+	}
+</style>
+<div class="sptt">
+	<span>1</span>
+	<span>2</span>
+	<span>3</span>
+	
+	
+</div>
+
+
+<p class="num_tell" id="tel">15896641234</p>
+<div class="code4">
+	
+		<input type="text" placeholder="校验码"/> <img src="code.jpg"/>
+	<p></p>
+</div>
+		
+<div class="code4 tell_code">
+	
+		<input type="text" placeholder="手机验证码"/> <span id="fc" onclick="ct()">获取验证码</span>
+	<p></p>
+</div>
+
+
+<div class="code4 tell_code">
+	
+		<input type="text" placeholder="邀请码（选填）"/> 
+	<p></p>
+</div>
+    <button class="btn">
+        注册
+    </button>
+    <a href="">阿斯顿发射点</a>
+    
+	</body>
+
+</html>
+<script src="../js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+var tells=$(".num_tell").html()
+
+var tells_4=tells.substring(0,3)+"****"+tells.substring(7,11)
+	$(".num_tell").html(tells_4);
+	
+	
+	
+		var wait = 6;
+    function ct() {
+        
+            if (wait == 0) {
+                $("#fc").attr("onclick", "ct()");
+                $("#fc ").css("background", "#ffa52d")
+                $("#fc").text("获取验证码");
+                wait = 6;
+                return false;
+            } else {
+                $("#fc").text("" + wait + "s重新发送");
+                $("#fc").attr("onclick", "");
+                $("#fc").css("background", "#cfcbcb")
+                wait--;
+                //编辑器
+                setTimeout(function () {
+                    ct();
+                }, 1000)
+            }    
+  
+    }
+</script>

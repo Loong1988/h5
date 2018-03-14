@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>落地页2</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<script>
+			var iWidth = document.documentElement.clientWidth;
+
+			document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+		</script>
+		<style type="text/css">
+		body{margin: 0;padding: 0;}
+			.bac_div{
+/*				position: absolute;
+				top: 0;
+				z-index: -1;*/
+
+			}
+			.bac_div>img{
+				width: 16rem;
+				border: 0;
+				height: 100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="bac_div" id="bacdiv">
+				<img src="img/luodiye2bac.png" id="bacone"/>
+		</div>
+		
+	</body>
+
+</html>
+<script src="../js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+var h=$('#bacone').height()
+console.log(h)
+	$('.bac_div').height(h)
+</script>

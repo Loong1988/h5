@@ -1,0 +1,350 @@
+.mask{
+	background-color:#000; 
+    left:0; 
+    opacity:0.5; 
+    position:absolute; 
+    top:0; 
+    z-index:3; 
+    filter:alpha(opacity=50); 
+    -moz-opacity:0.5; 
+    -khtml-opacity:0.5; 
+    display: none;
+}
+.popBox{
+	width: 100%;
+	position: fixed;
+	margin:0 auto;
+	top:3.95rem;
+	z-index: 4;
+}
+.popBoxIn{
+	width: 12.55rem;
+	margin: 0 auto;
+	display: none;
+}
+.popBoxInRecharge{
+	width: 12.55rem;
+	margin: 0 auto;
+}
+.popTit{
+	text-align: center;
+}
+.popTit > img{
+	width: 6.2rem;
+}
+.popTit h6{
+	height: 2.25rem;
+	color: #FFFFFF;
+	font-size: 0.7rem;
+	background-color: #f7b33a;
+	margin-top: -0.9rem;
+	line-height: 3rem;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.popTit a img{
+	width: 1.175rem;
+	margin-top: -2.7335rem;
+	margin-right: -0.5875rem;
+	float: right;
+}
+
+
+.formBox{
+	background-color: #f7f7f7;
+	padding: 1.5rem 1.175rem 1.5rem 1.175rem;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.formBox div{
+	#margin-bottom: 0.75rem;
+	#line-height: 1.5rem;
+	#height: 1.5rem;
+	margin-bottom: 0.75rem;
+    line-height: 0.85rem;
+    height: 1.5rem;
+}
+.formBox div span{
+	display: inline-block;
+	width: 29.5%;
+	text-align: left;
+	color: #aaa;
+	font-size: 0.6rem;
+}
+.formBox div input{
+	height: 100%;
+	width: 67.5%;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	padding-left: 0.25rem;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+}
+.formBox button.oneBtn{
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	line-height: 1.6rem;
+	color: #fff;
+	font-size: 0.6rem;
+	background: #ed462f;
+	padding: 0px;
+}
+.formBox a.oneBtn{
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	line-height: 1.6rem;
+	color: #fff;
+	font-size: 0.6rem;
+	background: #ed462f;
+	padding: 0px;
+}
+
+/*ln*/
+/*--修改手机--*/
+.formBox .verification .impt{
+	float: left;
+}
+.formBox .verification .impt input{
+	width: 5.75rem;
+	height: 1.5rem;
+	padding-left: 1.15rem;
+}
+.formBox .verification .count{
+	width: 4.05rem;
+	height:1.5rem ;
+	text-align: center;
+	line-height: 1.5rem;
+	float: right;
+	background: #f49b34;
+	color: #fff;
+	font-size: 0.5rem;
+	border: none;
+	border-radius: 5px;
+}
+
+.formBox .new input{
+	width: 100%;
+	padding-left: 2rem;
+	background: url("../images/modification_03.png") 5px center no-repeat;
+	background-color: #fff;
+	background-size: 1.3rem 1.3rem;
+}
+.formBox .new2 input{
+	width: 100%;
+	padding-left: 2rem;
+	background-color: #fff;
+	background-size: 1.3rem 1.3rem;
+}
+.formBox .new1 input{
+	width: 100%;
+	padding-left: 2rem;
+	background: url("../images/password_03.png") 5px center no-repeat;
+	background-color: #fff;
+	background-size: 1.3rem 1.3rem;
+
+}
+/*lxq*/
+/*产品详情弹框——优惠劵*/
+.formBox .discount_font{
+	font-size: 0.6rem;
+	color: #e40000;
+	margin-left: 0.9rem;
+}
+.formBox .discount_sel{
+	width: 8.575rem;
+	height: 1.55rem;
+	border: 1px solid #cfcfcf;
+	background:url("../images/select_03.png") 97% 50% no-repeat ;
+	background-size: 0.35rem 0.575rem;
+	padding-left: 0.5rem;
+	background-color: #FFFFFF;
+	font-size: 0.6rem;
+	color: #a0a0a0;
+	margin-left: 0.9rem;
+}
+.formBox .allBut{
+	padding-top: 1.175rem;
+	width: 10.45rem;
+	height: 1.575rem;
+}
+.formBox .discount_but1{
+	background-color:#ed462f ;
+	font-size: 0.5rem;
+	margin-right: 0.375rem;
+	color: #ffffff;
+	width: 4.9rem;
+	border: none;
+	border-radius: 5px;
+	height: 1.625rem;
+	margin-top: 1.15rem;
+}
+.formBox .discount_but2{
+	background-color:#f7f7f7 ;
+	font-size: 0.5rem;
+	color: #ee5e4a;
+	width: 4.9rem;
+	margin-top: 1.15rem;
+	border: 1px solid #ee5e4a;
+	border-radius: 5px;
+	height: 1.625rem;
+}
+
+/*产品详情弹框——满标*/
+
+.formBox{
+	background-color: #f7f7f7;
+	padding: 1.5rem 1.175rem 1.5rem 1.175rem;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.formBox .font1{
+	font-size: 0.6rem;
+	color: #e40000;
+	text-align: center;
+}
+.formBox .font2{
+	font-size: 0.6rem;
+	color: #838383;
+	text-align: center;
+}
+.formBox p{
+	font-size: 0.875rem;
+	color: #f49b34;
+	text-align: center;
+}
+.formBox button.butInvest{
+	width: 100%;
+	border: none;
+	margin-top: 3rem;
+	border-radius: 5px;
+	line-height: 1.6rem;
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.6rem;
+	background: #ed462f;
+	padding: 0px;
+}
+/*产品详情弹框——余额不足和已结束*/
+.formBox .font3{
+	font-size: 0.6rem;
+	color: #666666;
+	text-align: center;
+}
+.formBox button.balanceBtn{
+	width: 100%;
+	border: none;
+	margin-top: 1.175rem;
+	border-radius: 5px;
+	line-height: 1.6rem;
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.6rem;
+	background: #ed462f;
+	padding: 0px;
+}
+
+/*lh*/
+/*RechargeCash-充值提现*/
+#RechargeCash .PayBox{
+	background-color: #f7f7f7;
+	padding: 0.25rem 1.175rem 1.5rem 1.175rem;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+#RechargeCash .PayBox button.Btn_paySuccess{
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	line-height: 1.6rem;
+	color: #fff;
+	font-size: 0.6rem;
+	background: #00ce0a;
+	padding: 0px;
+	margin-bottom: 0.5rem;
+}
+#RechargeCash .PayBox button.Btn_MeetMatter{
+	background: #ed462f;
+	margin-bottom: 0px;
+}
+#RechargeCash .PayBox .Box_InfoPay{
+	height: 2.95rem;
+	width: 100%;
+	text-align: center;
+	line-height:3.1rem;
+	font-size: 0.6rem;
+}
+
+/*Experience-体验专区*/
+#Experience .ExperienceBox{
+	background-color: #f7f7f7;
+	padding: 0.25rem 1.95rem 1.3rem 1.95rem;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+#Experience .InfoExperience{
+	height: 2.25rem;
+	width: 100%;
+	line-height:2.25rem;
+	font-size: 0.6rem;
+	color: #e83131;
+	margin-top: 0.375rem;
+}
+#Experience select{
+	appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+	width: 100%;
+	height: 1.5rem;
+	border: 1px solid #e7e7e7;
+	background: white;
+	margin-bottom:0.8rem;
+	padding-left: 10%;
+	padding-right: 1.5rem;
+	font-size: 0.6rem;
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+ select::-ms-expand { display: none; }
+#Experience select option{
+	font-size: 0.6rem;
+	color: #a7a7a7;
+	overflow:hidden;
+}
+#Experience .ExperienceBox button.Btn_UseCoupon{
+	height: 1.5rem;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	line-height: 1.6rem;
+	color: #fff;
+	font-size: 0.6rem;
+	background: #ed462f;
+	padding: 0px;
+}
+#Experience .SanJiao{
+	width: 100%;
+	height: 1.8rem;
+	margin-top: -1.7rem;
+}
+.rotate{
+	width: 0.3rem;
+	height: 0.3rem;
+	border-right: 1px solid #a7a7a7;
+	 border-bottom: 1px solid #a7a7a7;
+	 transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  margin-bottom: -1rem;
+  margin-left: 89%;
+  }
+#click{
+	width:10rem;
+	height:1.6rem;
+	background:#ec462e;
+	text-align:center;
+	border-radius: 0.25rem;
+	color:#fffefc;
+}

@@ -1,0 +1,122 @@
+/*   确认框  start   */
+
+.alert-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .3);
+    display: none;
+    z-index: 999;
+}
+
+.alert-wrap {
+    width: 560px;
+    padding-bottom: 70px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color: #f7f7f7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.alert-head {
+    background-color: #ffb31c;
+    border-top-left-radius: 20px;
+    height: 100px;
+}
+
+.alert-img {
+    position: relative;
+    height: 142px;
+    background-image: url('../img/modal/alert-head.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    top: -105px;
+}
+
+.alert-head a {
+    position: absolute;
+    top: 85px;
+    right: -15px;
+    background-image: url('../img/modal/alert-close.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    width: 54px;
+    height: 54px;
+}
+
+.alert-head h3 {
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: -95px;
+}
+
+.alert-body strong {
+    font-size: 24px;
+    color: #e30100;
+    line-height: 130px;
+    display: block;
+    font-weight: normal;
+    text-align: center;
+}
+
+.alert-body button,
+.alert-body a {
+    height: 54px;
+    line-height: 54px;
+    width: 360px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 21px;
+    color: #ff0200;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #ff0200;
+    margin-bottom: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.alert-body button.gray,
+.alert-body a.gray {
+    color: #666;
+    border: 1px solid #666;
+}
+
+.alert-body button.warn,
+.alert-body a.warn {
+    color: #ffffff;
+    background-color: #ff0200;
+    border: 0;
+}
+
+.alert-body button.success,
+.alert-body a.success {
+    color: #ffffff;
+    background-color: #00cf0a;
+    border: 0;
+}
+
+[data-type] {
+    display: none;
+}
+
+
+/*   确认框  end   */
+
+.hover:hover {
+    filter: Alpha(opacity=70);
+    opacity: .7;
+}

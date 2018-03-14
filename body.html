@@ -1,0 +1,40 @@
+<head>
+	<meta charset="utf-8"/>
+	<title>calc</title>
+<script>
+			var iWidth = document.documentElement.clientWidth;
+			console.log(iWidth)
+			document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+			//			//利用javascript来动态设置（这种方法每一个宽度点都会有一个新的rem）
+			// 基准rem*window.innerWidth / 基准屏幕宽度 + 'px';
+			console.log(iWidth / 16 + 'px--')
+		</script>	
+</head>
+<style type="text/css">
+	
+</style>
+<!--<div id="conRecoverSuc" ></div>-->
+<!--<div id="conTenderInProgress" ></div>
+<div id="conRptListPossess"></div>-->
+</body>
+<script src="js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+
+
+function listture(id) {
+	var obj=$("#conRecoverSuc");
+    if(obj[0]==null){
+        return true;
+    }else{
+    	 return false;
+    }
+}
+var c=listture('conRecoverSuc')||listture('conTenderInProgress')||listture('conRptListPossess')
+
+  bindQueTap: function() {
+    wx.navigateTo({
+      url: '../question/question'
+    })
+  },
+
+</script>

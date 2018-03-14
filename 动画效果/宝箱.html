@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<style type="text/css">
+		*{margin: 0;padding: 0; list-style: none;}
+			header{
+				width: 100vw;
+				height: 5vh;
+				background: gray;
+				font-size: 2vh;
+				text-align: center;
+				line-height: 5vh;
+			}
+			.baoxiang>div{
+				width: 50vw;
+				margin:5vw auto;
+				background: url('img/宝箱/baoxiang11.png') no-repeat;
+				background-size: 100%;
+				height: 50vw;
+
+			}
+			.baoxiang>.animatebox{
+				animation: baoxiang 0.8s linear infinite;
+				-webkit-animation: baoxiang 0.8s linear infinite;
+				/*animation-iteration-count: infinite;*/
+				
+			}
+			.baoxiang img{
+				width: 50vw;
+			}
+			
+			@keyframes baoxiang{
+				from{
+					background: url('img/宝箱/baoxiang11.png') no-repeat;
+					background-size: 100%;
+				}
+				33%{
+					background: url('img/宝箱/baoxiang22.png') no-repeat;
+					background-size: 100%;}
+				66%{
+					background: url('img/宝箱/baoxiang33.png') no-repeat;
+					background-size: 100%;
+				}
+				to{
+					background: url('img/宝箱/baoxiang22.png') no-repeat;
+					background-size: 100%;
+				}
+			}
+			@-webkit-keyframes baoxiang{
+				from{
+					background: url('img/宝箱/baoxiang11.png') no-repeat;
+					background-size: 100%;
+				}
+				33%{
+					background: url('img/宝箱/baoxiang22.png') no-repeat;
+					background-size: 100%;}
+				66%{
+					background: url('img/宝箱/baoxiang33.png') no-repeat;
+					background-size: 100%;
+				}
+				to{
+					background: url('img/宝箱/baoxiang22.png') no-repeat;
+					background-size: 100%;
+				}
+			}
+			/*哭*/
+			.box{
+				width: 50vw;
+				height: 50vw;
+				margin: auto;
+				/*border: 1px solid;*/
+			}
+			.cry{
+				background: url('img/cry/cry1.png') no-repeat scroll center/30vw;
+				animation: cry 0.8s linear infinite;
+				-webkit-animation:cry 0.8s linear infinite; ;
+			}
+			@keyframes cry{
+				from{
+					background: url('img/cry/cry1.png') no-repeat scroll center/30vw;
+					
+				}
+				25%{
+					background: url('img/cry/cry2.png') no-repeat scroll center/30vw;
+					
+				}
+				50%{
+					background: url('img/cry/cry3.png') no-repeat scroll center/30vw;
+				}
+				75%{
+					background: url('img/cry/cry4.png') no-repeat scroll center/30vw;
+				}
+				to{
+					background: url('img/cry/cry5.png') no-repeat scroll center/30vw;
+				}
+			}
+
+			@-webkit-keyframes cry{
+				from{
+					background: url('img/cry/cry1.png') no-repeat scroll center/30vw;
+					
+				}
+				25%{
+					background: url('img/cry/cry2.png') no-repeat scroll center/30vw;
+					
+				}
+				50%{
+					background: url('img/cry/cry3.png') no-repeat scroll center/30vw;
+				}
+				75%{
+					background: url('img/cry/cry4.png') no-repeat scroll center/30vw;
+				}
+				to{
+					background: url('img/cry/cry5.png') no-repeat scroll center/30vw;
+				}
+			}
+			/*管家*/
+			.steward{
+				background:url('img/steward/steward1.png') no-repeat scroll center/30vw;;
+				animation: steward 0.6s linear infinite;
+				-webkit-animation:steward 0.6s linear infinite;
+			}
+			@-webkit-keyframes steward{
+				from{
+					background: url('img/steward/steward1.png') no-repeat scroll center/30vw;
+					
+				}
+				
+				30%{
+					background: url('img/steward/steward2.png') no-repeat scroll center/30vw;
+				}
+				70%{
+					background: url('img/steward/steward3.png') no-repeat scroll center/30vw;
+				}
+				to{
+					background: url('img/steward/steward4.png') no-repeat scroll center/30vw;
+				}
+			}
+			@keyframes steward{
+				from{
+					background: url('img/steward/steward1.png') no-repeat scroll center/30vw;
+					
+				}
+				
+				30%{
+					background: url('img/steward/steward2.png') no-repeat scroll center/30vw;
+				}
+				70%{
+					background: url('img/steward/steward3.png') no-repeat scroll center/30vw;
+				}
+				to{
+					background: url('img/steward/steward4.png') no-repeat scroll center/30vw;
+				}
+			}
+			/*vip*/
+			
+			.vip2{
+				background: url(img/vip/twovip.png) no-repeat scroll center/50vw;*/
+				text-align: center;
+				position: relative;
+				top:0;
+				animation: vip2 3s .4s ease infinite;
+				-webkit-animation: vip2 3s .4s ease infinite;
+				text-align: center;
+				
+			}
+			.vip2 img{
+				width: 34vw;
+				vertical-align: middle;
+				position: relative;
+				top: 0vw;
+				animation: vip 3s ease infinite;
+				-webkit-animation:vip 3s ease infinite;
+			}
+			
+			@keyframes vip{
+				from{top: 0vw;}
+				50%{top: 4vw;}
+				to{
+					top: 0vw;
+				}
+			}
+			@-webkit-keyframes vip{
+				from{top: 0vw;}
+				50%{top: 4vw;}
+				to{
+					top: 0vw;
+				}
+			}
+			@keyframes vip2{
+				from{top: 0vw;}
+				50%{top: 5vw;}
+				to{
+					top: 0vw;
+				}
+			}
+			@-webkit-keyframes vip2{
+				from{top: 0vw;}
+				50%{top: 5vw;}
+				to{
+					top: 0vw;
+				}
+			}
+			.vipse{
+				/*border: 1px solid;*/
+				position: relative;
+				overflow: hidden;
+			}
+		</style>
+		<script src="../js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/fastclick.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+$(function() {
+    FastClick.attach(document.body);
+});
+		</script>
+	</head>
+	<body>
+		
+		<header>动画效果</header>
+		
+		<section class="baoxiang">
+			
+			<div class="animatebox"></div>
+			
+		</section>
+		
+		<section class="">
+			
+			<div class="cry box"></div>
+			
+		</section>
+		
+		<section class="guanjia">
+			
+			<div class="steward box"></div>
+			
+		</section>
+		
+		<section class="vipse">
+			
+			<div class="vip2 box">
+				<img src="img/vip/onevip.png"/>
+			</div>
+			
+		</section>
+		
+		
+
+	</body>
+</html>
+
+<script type="text/javascript">
+
+
+	$('.baoxiang>div').click(function () {//宝箱
+		$(this).addClass('animatebox')
+		
+	})
+
+ 
+</script>

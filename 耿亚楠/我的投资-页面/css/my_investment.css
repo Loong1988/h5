@@ -1,0 +1,147 @@
+body{
+	background: #eeeeee;
+}
+.cj_herder{
+	width: 16rem;
+	height: 2rem;
+	background: #f75831;
+}
+.cj_herder img{
+	width: 0.375rem;
+	height: 0.65rem;
+	float: left;
+	margin-left: 0.5rem;
+	margin-top: 0.7rem;
+ }
+.cj_herder h1{
+	text-align: center;
+	font-size: 0.8rem;
+	color: #fff;
+	line-height: 2rem;
+}
+.nav_gjn{
+	width: 16rem;
+	height: 2rem;
+	background: #fff;
+}
+.nav_gjn ul{
+	width: 16rem;
+	height: 2rem;
+}
+.nav_gjn ul li{
+	width: 3.8rem;
+	height: 1.15rem;
+	float: left;
+	margin-top: 0.4rem;
+	text-align: center;
+	margin-left: 0.825rem;
+	margin-right: 0.6rem;
+	border-radius: 8rem;
+}
+.nav_gjn ul li a{
+	float: left;
+	margin-left: 0.3rem;
+	line-height: 1.15rem;
+	color: #666666;
+	font-size: 0.6rem;
+}
+.nav_gjn ul li p{
+	font-size: 0.3rem;
+	color: #fff;
+	width: 1.3rem;
+	height: 0.65rem;
+	line-height: 0.65rem;
+	display: block;
+	background: #f87556;
+	float: right;
+	margin-right: 0.2rem;
+	margin-top: 0.23rem;
+	border-radius: 8px;
+}
+.nav_gjn ul .g_act{
+	width: 3.8rem;
+	height: 1.15rem;
+	float: left;
+	margin-top: 0.4rem;
+	text-align: center;
+	margin-left: 0.825rem;
+	margin-right: 0.6rem;
+	border-radius: 8rem;
+	background: #ff9f24;
+}
+.nav_gjn ul .g_act a{
+	color: #fff;
+}
+.nav_gjn ul .g_act p{
+	font-size: 0.3rem;
+	color: #f87556;
+	width: 1.3rem;
+	height: 0.65rem;
+	line-height: 0.65rem;
+	display: block;
+	background: #fff;
+	float: right;
+	margin-right: 0.2rem;
+	margin-top: 0.23rem;
+	border-radius: 8px;
+}
+.cont_tz{
+	width: 16rem;
+	height: 6.8rem;
+	margin-top: 0.65rem;
+	background: #fff;
+}
+.cont_tz .cont_tz_t{
+	width: 16rem;
+	height: 1.75rem;
+	background: #f7f7f7;
+}
+.cont_tz .cont_tz_t h4{
+	font-size: 0.65rem;
+	color: #444444;
+	float: left;
+	margin-left: 0.5rem;
+	line-height: 1.75rem;
+}
+.cont_tz .cont_tz_t p{
+	font-size: 0.55rem;
+	color: #aaaaaa;
+	line-height: 1.75rem;
+	float: right;
+	margin-right: 0.5rem;
+}
+.cont_tz .cont_tz_o{
+	width: 16rem;
+	height: 3.3rem;
+	border-bottom: 1px solid #eeeeee;
+}
+.cont_tz .cont_tz_o dl{
+	width: 4rem;
+	height: 3.3rem;
+	float: left;
+}
+.cont_tz .cont_tz_o dl dd{
+	text-align: center;
+	font-size: 0.75rem;
+	color: #f75731;
+	margin-top: 0.75rem;
+}
+.cont_tz .cont_tz_o dl dt{
+	font-size: 0.55rem;
+	color: #aaaaaa;
+	margin-top: 0.3rem;
+	text-align: center;
+}
+.cont_tz .cont_tz_b{
+   width: 16rem;
+   height: 1.7rem;
+}
+.cont_tz .cont_tz_b p{
+	font-size: 0.55rem;
+	color: #666666;
+	text-align: center;
+	line-height: 1.7rem;
+}
+
+.states2 .font{color: #444444!important;}
+.states3 .font{color: #444444!important;}

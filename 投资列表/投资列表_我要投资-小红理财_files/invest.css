@@ -1,0 +1,363 @@
+.wrap{
+    width: 100%;
+    background: #eeeeee;
+   /* padding-top: 1rem;*/
+   position: relative;
+    /*padding-bottom: 3rem;*/
+    top: -0.4rem;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.content{
+    background: #fff;
+    position: relative;
+    margin-top: 0.5rem;
+
+}
+.content .img1{
+    position: absolute;
+    top: -0.55rem;
+    width: 2.55rem;
+    height: 3.075rem;
+}
+.content .tit{
+    text-align: center;
+}
+.content .tit .img2{
+    width: 8rem;
+    height: 1.1rem;
+    background:url(../images/xiaohongbiao1.png) no-repeat;
+    background-size:100% 100%;
+    margin-left:4rem;
+    font-size:0.6rem;
+    color:#ffffff;
+    line-height:1rem;
+
+}
+.img3{
+     width: 8rem;
+     height: 1.1rem;
+     background:url(../images/caiyuangungun1.png) no-repeat;
+     background-size:100% 100%;
+     margin-left:4rem;
+     font-size:0.6rem;
+     color:#ffffff;
+     line-height:1rem;
+ }
+.img4{
+    width: 8rem;
+    height: 1.1rem;
+    background:url(../images/hongyundangtou.png) no-repeat;
+    background-size:100% 100%;
+    margin-left:4rem;
+    font-size:0.6rem;
+    color:#ffffff;
+    line-height:1rem;
+}
+.img5{
+    width: 8rem;
+    height: 1.1rem;
+    background:url(../images/hongyundangtou.png) no-repeat;
+    background-size:100% 100%;
+    margin-left:4rem;
+    font-size:0.6rem;
+    color:#ffffff;
+    line-height:1rem;
+}
+
+.content .mark{
+    width: 3.35rem;
+    height:0.75rem ;
+    text-align: center;
+    line-height: 0.64rem;
+    border: 0.025rem solid #e14f41;
+    border-radius: 1rem;
+    float: right;
+    margin-right: 0.2rem;
+    margin-top: -1.3rem;
+    padding: 0.1rem 0.2rem;
+}
+.content .mark span{
+    font-size: 0.4rem;
+    color: #e14f41;
+}
+
+.content .mark1{
+    width: 2.55rem;
+    height:0.75rem ;
+    text-align: center;
+    line-height: 0.75rem;
+    border: 0.025rem solid #a0a0a0;
+    border-radius: 1rem;
+    float: right;
+    margin-right: 0.4rem;
+    margin-top: -0.5rem;
+    padding: 0.1rem 0.2rem;
+}
+.content .mark1 span{
+    font-size: 0.4rem;
+    color: #a0a0a0;
+}
+
+.content .mark2{
+    width: 2.55rem;
+    height:0.75rem ;
+    text-align: center;
+    line-height: 0.75rem;
+    border: 0.025rem solid #ff6f32;
+    border-radius: 1rem;
+    float: right;
+    margin-right: 0.4rem;
+    margin-top: -0.5rem;
+    padding: 0.1rem 0.2rem;
+}
+.content .mark2 span{
+    font-size: 0.4rem;
+    color: #ff6f32;
+}
+
+
+.content ul{
+    margin-top: -0.6rem;
+    
+}
+.content ul li{
+    display: inline-block;
+    text-align: center;
+
+}
+.content ul li p{
+    font-size: 0.55rem;
+    color: #999999;
+    margin-top: 0.6rem;
+}
+.content ul li strong{
+       display: block;
+    font-size: 0.55rem;
+    color: #f75731;;
+    font-weight: normal;
+}
+.content ul li strong span{
+    font-weight: normal;
+    /*font-size: 0.45rem;*/
+   color: #444444;
+       
+}
+.content .li1{
+    width: 37%;
+	height:3.6rem;
+}
+.content .li1 .percent{
+    font-size: 1.75rem;
+    color: #f75731;
+    font-weight: 900;;
+}
+.content .li1 .percent1{
+    font-size: 1.15rem;
+    color: #838383;
+}
+.content .li2{
+    width: 22%;
+    position: relative;
+}
+.content .li2::before{
+    content: "";
+    display: inline-block;
+    /*width: 0.025rem;*/
+   width: 1px;
+    height: 1.6rem;
+    background: #dddddd;
+    position: absolute;
+    left: -0.025rem;
+    top: 0.5rem;
+}
+.content .li2::after{
+    content: "";
+    display: inline-block;
+    /*width: 0.025rem;*/
+   width: 1px;
+    height: 1.6rem;
+    background: #dddddd;
+    position: absolute;
+    right: -0.115rem;
+    top: 0.5rem;
+}
+.content .li3{
+    width: 37%;
+}
+
+.cont1{
+    /*background: url("../images/invest-watermark1_03.png") 95% 72% no-repeat;*/
+    background-size:2.3rem  2.35rem;
+    background-color: #fff;
+}
+.cont2{
+    /*background: url("../images/invest-watermark2_03.png") 95% 72% no-repeat;*/
+    background-size:2.3rem  2.35rem;
+    background-color: #f7f7f7;
+}
+/*----------满标----------*/
+.cont3{
+    /*background: url("../images/invest-watermark3_03.png") 95% 72% no-repeat;*/
+    background-size:2.3rem  2.35rem;
+    background-color: #f7f7f7;
+}
+/*-----------还款中---------*/
+.cont4{
+    /*background: url("../images/invest-watermark4_03.png") 95% 72% no-repeat;*/
+    background-size:2.3rem  2.35rem;
+    background-color: #f7f7f7;
+}
+
+.ListCard{
+	width: 10rem;
+    height: 9.6rem;
+    padding-top: 2rem;
+    margin: 0 auto;
+    font-size: 0.5rem;
+	text-align: center;
+}
+.ListCard img{
+	width: 9.02rem;
+/* 	height: 4.75rem; */
+}
+/*--------------------*/
+.nav ul{
+    border-bottom: 0.2rem solid #eeeeee;
+}
+.nav ul li{
+    width: 24.68%;
+    height: 1.4rem;
+    float: left;
+    background: #ffa023;
+    text-align: center;
+    font-size: 0.6rem;
+    color: #fff;
+    line-height: 1.3rem;
+    font-size: 0.6rem;
+    color: #fff;
+    position: relative;
+    border-right: 0.02rem solid #fff;
+}
+
+.nav ul li:first-child img{
+   width: 1rem;
+    height: 1rem;
+    position:relative;
+    top: 0.2rem;
+    left: -0.1rem;
+}
+/*.nav ul .li-r::after{
+    content: "";
+    width: 0.025rem;
+    height: 0.9rem;
+    background-color: #ffc67b;
+    position: absolute;
+    top: 0.35rem;
+    left:3.95rem;
+}*/
+.nav ul .li-r1 img{
+    height: 0.875rem;
+    position: relative;
+    top:0.25rem;
+    left: 1.1rem;
+}
+.nav ul .li-r2 img{
+    height: 0.875rem;
+    position: relative;
+    top:0.25rem;
+    left: 0.8rem;
+}
+.nav .actv{
+    background: #fe7035;
+    color: #c0361f;
+}
+.nav .actv::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 0.5rem solid #fff;
+    border-top: 0.5rem solid transparent;
+    border-right:0.5rem solid transparent ;
+    border-left: 0.5rem solid transparent;
+    position: absolute;
+    top: 1rem;
+    right: 1.4rem;
+}
+
+
+
+.query{
+    padding: 0.6rem 0;
+    background: #fff;
+    border-bottom: 2px solid #eee;
+}
+.query .row1{
+    margin-bottom: 0.575rem;
+}
+
+.query .bulk{
+    width: 8rem;
+    float: left;
+    text-align: center;
+}
+.query .bulk label{
+    font-size: 0.45rem;
+    color: #999999;
+}
+.query .bulk select{
+    width: 4.9rem;
+    height: 1rem;
+    font-size: 0.42rem;
+    color:#666666;
+    border: 0.045rem solid #d2d2d2;
+    border-radius: 0.1rem;
+    background: url("../images/select-bg.png") right no-repeat;
+    background-size: 1rem 1rem;
+}
+/*cl修改*/
+
+*{margin: 0;padding: 0;}
+		.header_cl {
+				width: 100%;
+				background: #ffffff;
+				overflow: hidden;
+				    margin-top: -4px;
+			}
+			
+			.header_cl .header_tit_cl {
+				float: left;
+				
+				text-align: center;
+				height: 1.25rem;
+				width: 3rem;
+				/*width: 17%;*/
+				line-height: 1.25rem;
+				margin: 0.5rem 1rem;
+				color: #444444;
+				font-size: 0.6rem;
+			}
+			
+			.header_cl>div {
+				width: 15rem;
+				height: 2rem;
+				margin: auto;
+				
+			}
+			
+			.header_cl .act_cl {
+				border-radius: 0.625rem;
+				color: #fffffd;
+				background-color: #fe9f24;
+			}
+			.font_cl{
+				    font-size: 0.5rem;
+    color: #666666;
+    margin-top: -0.4rem;
+			}
+ .li_font_cl strong{margin-top: 0.5rem;font-size: 0.75rem!important;}
+.button_cl img{display:block;width: 5.5rem;margin: auto;margin-top: -0.1rem;}

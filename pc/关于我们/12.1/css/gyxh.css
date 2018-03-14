@@ -1,0 +1,130 @@
+/* 导航 */
+.dhang{
+    width: 100%;
+    height: 56px;
+
+}
+.dhang ul{
+    width: 1010px;
+    height: 56px;
+    margin: 0 auto;
+}
+.dhang ul li{
+    float: left;
+    text-align: center;
+    width: 152px;
+    height: 56px;
+    line-height: 56px;
+}
+.dhang ul li a{
+    font-size: 14px;
+    color: #888888;
+    text-decoration: none;
+}
+
+.dhang ul .xh1{
+    border-bottom: 1px solid #fac840;
+    color: #f75731;
+}
+.dhang ul li:hover{
+    border-bottom: 1px solid #fac840;
+    color: #f75731;
+}
+
+/* 关于我们 */
+.gyxh{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.gyxh .tup{
+    width: 1010px;
+    height: 2279px;
+
+}
+.cont_lx{
+    width: 100%;
+    height: 476px;
+}
+.cont_lx .cont_lxwm{
+    width: 1010px;
+    height: 476px;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+.cont_lx .cont_lxwm .cont_lxwm_l{
+    width: 298px;
+    height: 476px;
+    float: left;
+}
+.cont_lx .cont_lxwm .cont_lxwm_l h1{
+    font-size: 34px;
+    color: #f75731;
+    text-align: left;
+}
+.cont_lx .cont_lxwm .cont_lxwm_l h6{
+    font-size: 14px;
+    color: #999999;
+    margin-top: 6px;
+    text-align: left;
+}
+.cont_lx .cont_lxwm .cont_lxwm_l p{
+    font-size: 14px;
+    color: #333;
+    margin-top: 86px;
+}
+.cont_lx .cont_lxwm .cont_lxwm_l .ewm{
+    width: 298px;
+    height: 140px;
+    margin-top:65px;
+}
+.cont_lx .cont_lxwm .cont_lxwm_l .ewm dl{
+    width: 112px;
+    height: 144px;
+    margin-right: 28px;
+    float: left;
+}
+.cont_lx .cont_lxwm .cont_lxwm_l .ewm dl dd{
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+.cont_lx .cont_lxwm .cont_lxwm_l .ewm dl dt{
+    margin-top: 16px;
+}
+.cont_lx .cont_lxwm .cont_lxwm_r{
+    width: 628px;
+    height: 372px;
+    float: right;
+}
+/* 关于我们 */
+/* 股东介绍 */
+.gdjs{
+    width: 100%;
+    height: auto;
+}
+.gdjs .gdjs1{
+    width: 100%;
+    height: 380px;
+    background: #f4f4f4;
+    text-align: center;
+}
+.gdjs .gdjs1 img{
+    width: 1010px;
+    height: 380px;
+}
+.gdjs .gdjs2{
+    width: 1010px;
+    height: 590px;
+    margin: 0 auto;
+}
+.gdjs .gdjs3{
+    width: 1010px;
+    height: 611px;
+    margin: 0 auto;
+}
+.gdjs .gdjs4{
+    width: 1010px;
+    height: 513px;
+    margin: 0 auto;
+}

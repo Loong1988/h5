@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>帐户信息</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<link href="css/common.css" rel="stylesheet" type="text/css"/>
+<link href="css/my_investment.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/16+'px';	
+
+});
+</script>
+</head>
+<body>
+<div class="cj_herder">
+	<a href="#"><img src="images/fanhuojian_03.png"></a>
+	<h1>我的投资</h1>
+</div>
+
+<div class="nav_gjn">
+    <ul>
+        <li class="g_act"><a href="#">持有中</a><p>22</p></li>
+        <li ><a href="#">投标中</a><p>22+</p></li>
+        <li style="padding-right:0;"><a href="#">已回款</a><p>22</p></li>
+    </ul>
+</div>
+<style type="text/css">
+	.nav-cl ul li{
+		float: left;
+		width: 24%;
+		height: 1.2rem;
+		text-align: center;
+		line-height: 1.2rem;
+		background: blanchedalmond;	
+		margin: 0.4rem 4.6666%;	
+		border-radius: 0.6rem;
+		overflow: hidden;
+		position: relative;
+		font-size: 0.6rem;
+		text-indent: -1rem;
+
+	}
+	
+	.nav-cl{
+		height: 2rem;background: gainsboro;
+	}
+	.investlist span{
+		background: #FFFFFF;
+		display: inline-block;
+		width: 0.9rem;
+		 height: 0.6rem;
+		 line-height: 0.6rem;
+		 font-size: 0.3rem;
+		position: absolute;
+		top: 0.3rem;
+		text-indent: 0rem;
+		margin-left: 0.1rem;
+	}
+</style>
+<div class="nav-cl">
+    <ul class="investlist">
+<li>持有中<span>22</span></li>
+    		
+  <li> asdf </li>
+  <li> asdf </li> 
+
+    </ul>
+</div>
+<div class="cont_tz states1">
+    <div class="cont_tz_t">
+        <h4>小红标16052-7</h4>
+        <p>投资时间：16/09/08</p>
+    </div>
+    <div class="cont_tz_o">
+        <dl>
+            <dd>500元</dd>
+            <dt>投资金额</dt>
+        </dl>
+        <dl>
+            <dd>12%</dd>
+            <dt>收益率</dt>
+        </dl>
+        <dl>
+            <dd>38元</dd>
+            <dt>预计收益</dt>
+        </dl>
+        <dl>
+            <dd>16/10/11</dd>
+            <dt>到期时间</dt>
+        </dl>
+    </div>
+    <div class="cont_tz_b">
+        <p>已使用1000元本金券，获得3.32元收益</p>
+    </div>
+
+</div>
+
+
+
+<div class="cont_tz states2" style="display: none;">
+    <div class="cont_tz_t">
+        <h4>小红标16052-7</h4>
+        <p>投资时间：16/09/08</p>
+    </div>
+    <div class="cont_tz_o">
+        <dl>
+            <dd>500元</dd>
+            <dt>投资金额</dt>
+        </dl>
+        <dl>
+            <dd>12%</dd>
+            <dt>收益率</dt>
+        </dl>
+        <dl>
+            <dd>38元</dd>
+            <dt>预计收益</dt>
+        </dl>
+        <dl>
+            <dd class="font">投标中</dd>
+            <dt>状态</dt>
+        </dl>
+    </div>
+    <div class="cont_tz_b">
+        <p>已使用1000元本金券，获得3.32元收益</p>
+    </div>
+
+</div>
+
+
+<div class="cont_tz states3 " style="display: none;">
+    <div class="cont_tz_t">
+        <h4>小红标16052-7</h4>
+        <p>投资时间：16/09/08</p>
+    </div>
+    <div class="cont_tz_o">
+        <dl>
+            <dd>500元</dd>
+            <dt>投资金额</dt>
+        </dl>
+        <dl>
+            <dd>12%</dd>
+            <dt>收益率</dt>
+        </dl>
+        <dl>
+            <dd>38元</dd>
+            <dt>预计收益</dt>
+        </dl>
+        <dl>
+            <dd class="font">已回款</dd>
+            <dt>状态</dt>
+        </dl>
+    </div>
+    <div class="cont_tz_b">
+        <p>已使用1000元本金券，获得3.32元收益</p>
+    </div>
+
+</div>
+<script type="text/javascript">
+	$('.nav_gjn li').click(function () { 
+		
+        $(this).addClass('g_act').siblings().removeClass('g_act')
+        var i=$(this).index()+1;
+        console.log(i)
+        $('.states'+i).show().siblings('.cont_tz').hide()
+        
+	})
+</script>
+
+</body>
+</html>

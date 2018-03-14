@@ -1,0 +1,18 @@
+.all .bac{
+				width: 100%;
+			}
+			.all .new{
+				position: relative;
+			}
+			.all .new .btn{
+				width: 39vw;
+			    position: absolute;
+			    bottom: 2vw;
+			    left: 25.5vw;				
+			}
+			.all .year3 .btn{
+				width: 35vw;
+				position: absolute;
+			    bottom: 11vw;
+			    left: 28.5vw;				
+			}

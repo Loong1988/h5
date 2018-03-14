@@ -1,0 +1,197 @@
+/* 文库列表 */
+/* 公共 */
+.wrapper{
+	width: 940px;
+	margin: 0 auto;
+	margin-top: 66px;
+	overflow: hidden;
+	margin-bottom: 60px;
+}
+.wrapper .cont_l{
+	width: 146px;
+	float: left;
+}
+.wrapper .cont_l .cont_l_t{
+	width: 133px;
+	height: 28px;
+	background: #f5f5f5;
+	float: right;
+	margin-left: 12px;
+	border-left: 2px solid #e5e5e5;
+}
+.wrapper .cont_l .cont_l_t h6{
+	line-height: 28px;
+	margin-left: 8px;
+	font-size: 16px;
+    color: #317eac;
+    font-weight: bold;
+}
+.wrapper .cont_l .cont_l_b{
+	width: 133px;
+	height: 28px;
+	float: right;
+	margin-left: 12px;
+}
+.wrapper .cont_l .cont_l_b h6{
+	line-height: 28px;
+	margin-left: 8px;
+	font-size: 12px;
+    color: #333333;
+}
+.wrapper .cont_r{
+	width: 726px;
+	float: left;
+	margin-left: 20px;
+	overflow: hidden;
+}
+.wrapper .cont_r .cont_r_t{
+	width: 726px;
+	height: 28px;
+	background: #f5f5f5;
+	border-left: 2px solid #e5e5e5;
+}
+.wrapper .cont_r .cont_r_t h6{
+	line-height: 28px;
+	margin-left: 8px;
+	font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+}
+/* 公共 */
+.wrapper .cont_r .cont_r_b{
+	width: 726px;
+	height: 140px;
+	margin-top: 20px;
+}
+.wrapper .cont_r .cont_r_b img{
+	width: 150px;
+	height: 140px;
+	float: left;
+}
+.wrapper .cont_r .cont_r_b .cont_r_b_r{
+	width: 575px;
+	height: 138px;
+	border: 1px solid #dddddd;
+	border-left: none;
+	float: right;
+}
+.wrapper .cont_r .cont_r_b .cont_r_b_r h5{
+	font-size: 18px;
+	color: #317eac;
+	margin-top: 28px;
+	margin-left: 38px;
+}
+.wrapper .cont_r .cont_r_b .cont_r_b_r p{
+	margin-left: 38px;
+	display: block;
+	font-size: 12px;
+	color: #666666;
+	width: 499px;
+	margin-top: 14px;
+	line-height: 24px;
+}
+.fan{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pageStyle{
+   padding-top: 30px;
+   text-align: center;
+   padding-bottom: 30px;
+}
+
+.pageStyle #dig a{
+    color: #fff;
+}
+.pageStyle li{
+    display: inline-block;
+}
+.pageStyle li a{
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+    color: #969696;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 24px;
+    height: 24px;
+}
+.pageStyle li input{
+    height: 28px;
+    width: 28px;
+    border-radius: 20px;
+
+}
+.pageStyle li a:hover,.pageStyle li a.active{
+    background-color: #317eac;
+    color: #fff;
+    cursor: context-menu;
+}
+.pageStyle .pageArrow{
+    text-decoration: none;
+    color: #969696;
+    margin-right: 20px;
+}
+.pageStyle .pageArrow1{
+	margin-left: 20px;
+}
+/* 文库详情 */
+.cont_r_o{
+	width: 726px;
+
+}
+.cont_r_o h6{
+	text-align: center;
+	font-size: 16px;
+	color: #333333;
+	margin-top: 32px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 36px;
+}
+.cont_r_o h5{
+	font-size: 14px;
+	color: #333;
+	line-height: 30px;
+}
+.cont_r_o h4{
+	font-size: 14px;
+	color: #333;
+	line-height: 30px;
+	text-indent:2em;
+}
+.cont_b_dibu{
+	width: 724px;
+	height: 238px;
+	border: 1px solid #cccccc;
+	margin-top: 34px;
+	border-radius: 6px;
+}
+.cont_b_dibu h3{
+	font-size: 18px;
+	color: #333333;
+	text-align: center;
+	margin-top: 30px;
+	font-family: "Microsoft Yahei";
+	margin-bottom: 42px;
+}
+.cont_b_dibu p{
+	font-size: 22px;
+	color: #d35c32;
+	text-align: center;
+	font-family: "Microsoft Yahei";
+	margin-bottom: 35px;
+}
+.cont_b_dibu a{
+    display: block;
+    width: 216px;
+    height: 54px;
+    background: #3299d3;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 54px;
+    color: #fff;
+    font-size: 20px;
+}

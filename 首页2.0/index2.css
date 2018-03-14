@@ -1,0 +1,181 @@
+*{margin: 0;padding: 0;list-style: none;}
+html,body{
+
+	background: #eeeeee;
+}
+.new_obj{
+	height: 10.2rem;
+	width: 15rem;
+	margin:0.65rem auto;
+	background: #ffffff;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px #d1d1d1;
+}
+.new_obj>header{
+	font-size: 0.65rem;
+	text-align: center;
+	height: 2rem;
+	line-height: 2rem;
+	color: #ff5731;
+	border-bottom: 1px solid #EEEEEE;
+}
+.body_cl_new>dl{
+	height: 4.25rem;
+	/*background: gold;*/
+	text-align: center;
+	float: left;
+	
+}
+.body_cl_new .dl_left{
+	width: 60%;
+}
+.body_cl_new .dl_right{
+	width: 40%;
+}
+.body_cl_new>.dl_left>dt{
+	font-size: 2.6rem;
+	color: #f75731;
+}
+.body_cl_new dt{
+	height: 3.125rem;
+	line-height: 3.125rem;
+}
+.body_cl_new dd{
+	font-size: 0.5rem;
+	color: #AAAAAA;	
+}
+.dl_left .p2{
+	color: #ff8163;
+}
+.body_cl_new>.dl_right{
+	font-size: 1.05rem;
+	color: #f75731;	
+}
+.body_cl_new>.dl_right .p2{
+	color: #444444;	
+}	
+	
+.bar_cl {
+	margin-top: 2rem;
+	overflow: hidden;
+	width: 100%;
+}
+
+.bar_cl>li {
+	float: left;
+}
+
+.bar_cl>li:nth-child(1) {
+	width: 65%;
+}
+
+.bar_cl>li:nth-child(2) {
+	width: 30%;
+}
+
+.box_cl {
+	width: 92%;
+	height: 0.4rem;
+	background: #eeeeee;
+	border-radius: 0.2rem;
+	margin-left: 0.625rem;
+	margin-top: 0.25rem;
+}
+
+.new_obj .p_btn{
+	
+	
+
+	font-size: 0.65rem;
+	height: 1.75rem;
+	text-align: center;
+	line-height: 1.75rem;
+	border-radius: 0.875rem;
+	margin: auto;
+	margin-top: 0.75rem;
+	width: 6.8rem;
+	
+}
+.new_obj .st1{
+	background: #f75731;
+	color: #FFFFFF;
+	display: none;
+}
+.new_obj .st2{
+	background: #CCCCCC;
+	color: #FFFFFF;
+	
+}
+.new_obj .st3{
+	background: #CCCCCC;
+	color: #FFFFFF;
+	display: none;
+}
+
+
+
+/*进度条*/
+.sma_cl {
+	width: 0;
+	height: 0.4rem;
+	background: #ffa023;
+	border-radius: 0.2rem;
+}
+
+.percent_cl {
+	font-size: 0.5rem;
+	text-align: center;
+}
+
+.percent_cl>span:nth-child(3) {
+	color: #aaaaaa;
+}
+/*进度条*/
+.ranking_list{width: 16rem;}
+.ranking_head{
+height: 2rem;
+text-align: center;
+font-size: 0.65rem;
+color: #444444;
+background: #FFFFFF;
+line-height: 2rem;
+border-bottom: 1px solid #EEEEEE;
+}
+.ranking_box{
+	height:8.3rem ;
+	background: #FFFFFF;
+	box-shadow: 2px 2px 2px #DDDDDD;
+	overflow: hidden;
+	
+}
+.ranking_box table{
+	font-size: 0.55rem;
+	width: 90%;
+	margin: auto;
+	margin-top: 0.3rem;
+	position: relative;
+	top:0;
+	overflow: hidden;
+}
+.ranking_box table tr{
+	height: 1.6rem;
+}
+.ranking_box table td>img{
+	width: 1rem;
+	display: block;
+	margin: auto;
+}
+table{
+	text-align: center;
+color: #444444;
+
+}
+.list_h{
+	font-size: 0.95rem;
+	color: #DDDDDD;
+	font-weight: 800;
+}
+table tr>td:last-child{
+	color: #f75731;
+	text-align: right;
+}

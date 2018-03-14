@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>投资成功</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<link href="css/common.css" rel="stylesheet" type="text/css"/>
+<link href="css/vip_zq2.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/16+'px';	
+
+});
+</script>
+</head>
+<body>
+<div class="cj_herder">
+	<a href="#"><img src="images/fanhuojian_03.png"></a>
+	<h1>获得vip</h1>
+</div>
+<div class="top_zc">
+	<img src="images/VIP.png">
+</div>
+
+<div class="footer">
+	<div class="gjn_zc">
+		<p>投资满5000元</p>
+	</div>
+	<button class="ljtz">开启特权</button>
+</div>
+<div class="zc_tk">
+	<img src="images/tanchuang.png" class="ing1">
+	<img src="images/Xicon.png" class="ing2">
+</div>
+<div class="zc_zzc"></div>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+    /*获取按钮点击事件的class或id*/
+	$('.ljtz').click(function () {
+		/*获取弹出框的class或id*/
+		$('.zc_tk').show()
+		/*获取遮罩层的class或id*/
+		$('.zc_zzc').show()
+	})
+	/*获取叉号按钮点击事件的class或id*/
+	$('.ing2').click(function () {
+		$('.zc_tk').hide()
+		$('.zc_zzc').hide()
+	})
+</script>
+</body>
+</html>

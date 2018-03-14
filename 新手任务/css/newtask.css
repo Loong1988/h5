@@ -1,0 +1,169 @@
+.mission1{
+	background: url(../img/mission11.png) no-repeat;	
+	background-size: 100%;
+}
+.miss_btn1{
+	height: 2rem;;width: 4.5rem;
+	margin: auto;
+	position: absolute;
+	background: url(../img/anniu-1.png) no-repeat;
+	background-size:4rem;
+	bottom: 4rem;
+	left: 6rem;
+}
+.mission2{
+	background: url(../img/mission22.png) no-repeat;	
+	background-size: 16rem 100%;
+}
+
+.miss_btn2{
+	height: 2rem;;width: 4.5rem;
+	margin: auto;
+	position: absolute;
+	background: url(../img/anniu-2.png) no-repeat;
+	background-size:4rem;
+	bottom: 4rem;
+	left: 6rem;
+}
+.mission3{
+	background: url(../img/mission33.png) no-repeat;	
+	background-size: 16rem 100%;
+}
+.miss_btn3{
+	height: 2rem;;width: 4.5rem;
+	margin: auto;
+	position: absolute;
+	background: url(../img/anniu-3.png) no-repeat;
+	background-size:4rem;
+	bottom: 4rem;
+	left: 6rem;
+}
+.mission4{
+	background: url(../img/mission44.png) no-repeat;	
+	background-size: 16rem 100%;
+}
+.miss_btn4{
+	height: 2rem;;width: 4.5rem;
+	margin: auto;
+	position: absolute;
+	background: url(../img/anniu-4.png) no-repeat;
+	background-size:4rem;
+	bottom: 4rem;
+	left: 6rem;
+}
+.mission5{
+	background: url(../img/mission55.png) no-repeat;	
+	background-size: 16rem 100%;
+}
+.miss_btn5{
+	height: 2rem;;width: 4.5rem;
+	margin: auto;
+	position: absolute;
+	background: url(../img/anniu-5.png) no-repeat;
+	background-size:4rem;
+	bottom: 4rem;
+	left: 6rem;
+	
+}
+.mission6{
+	background: url(../img/mission66.png) no-repeat;	
+	background-size: 16rem 100%;
+}
+.miss_btn6{
+	height: 2rem;;width: 4.5rem;
+	margin: auto;
+	position: absolute;
+	background: url(../img/anniu-6.png) no-repeat;
+	background-size:4rem;
+	bottom: 4rem;
+	left: 6rem;
+}
+
+			#close {
+				position: absolute;
+				width: 160px;
+				left: 50%;
+				margin-left: -80px;
+				bottom: 15%;
+				padding: 10px;
+				color: #fff;
+				border-color: #fff;
+			}
+			.item-logo {
+				width: 100%;
+				height: 100%;
+				position: relative;
+			}
+			.item-logo a {
+				width: 200px;
+				height: 200px;
+				display: block;
+				border: 1px solid #FFFFFF;
+				border-color: rgba(255, 255, 255, 0.5);
+				text-align: center;
+				line-height: 200px;
+				border-radius: 50%;
+				font-size: 40px;
+				color: #fff;
+				position: absolute;
+				top: 15%;
+				left: 50%;
+				margin-left: -100px;
+			}
+			.animate {
+				position: absolute;
+				left: 0;
+				bottom: 15%;
+				width: 100%;
+				color: #fff;
+				display: -moz-box;
+			}
+			.animate h2 {
+				text-align: center;
+				margin-bottom: 20px;
+			}
+			.animate li {
+				width: 50%;
+				height: 30px;
+				line-height: 30px;
+				list-style: none;
+				font-size: 16px;
+				text-align: right;
+			}
+			.animate li:nth-child(3) {
+				text-align: left;
+				float: right;
+			}
+			.animated {
+				-webkit-animation-duration: 1s;
+				-webkit-animation-play-state: paused;
+				-webkit-animation-fill-mode: both;
+			}
+			.guide-show .bounceInDown {
+				-webkit-animation-name: bounceInDown;
+				-webkit-animation-play-state: running;
+				-webkit-animation-delay: 1s;
+				display: block;
+			}
+			.guide-show .bounceInLeft {
+				-webkit-animation-name: bounceInLeft;
+				display: block;
+				-webkit-animation-play-state: running;
+			}
+			.guide-show .bounceInRight {
+				-webkit-animation-name: bounceInRight;
+				display: block;
+				-webkit-animation-play-state: running;
+				-webkit-animation-delay: 0.5s;
+				
+			}
+.ago_cl{
+		height: 2rem;;width: 4.5rem;
+	margin: auto;
+	position: absolute;
+	background: url(../img/anniu-1.png) no-repeat;
+	background-size:4rem;
+	bottom: 4rem;
+	left: 6rem;
+}
+			

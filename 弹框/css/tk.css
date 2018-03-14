@@ -1,0 +1,66 @@
+* {
+  font-family: "Microsoft YaHei", "Hiragino Sans GB", Arial, "Lucida Grande", Verdana;
+}
+.newtk .light {
+  width: 94vw;
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -47vw;
+  top: 10vw;
+  display: none;
+}
+.tk3 {
+  width: 70vw;
+  background: #fff;
+  border-radius: 2vw;
+  position: fixed;
+  top: 20%;
+  left: 15vw;
+  text-align: center;
+  color: #222222;
+  padding-bottom: 5.555555555555555vw;
+  display: none;
+}
+.tk3 .wx {
+  background: url('../img/wx.png') no-repeat 0 0 / 100%;
+}
+.tk3 .mi {
+  background: url('../img/mi.png') no-repeat 0 0 / 100%;
+}
+.tk3 .pay {
+  background: url('../img/pay.png') no-repeat 0 0 / 100%;
+}
+.tk3 .titimg {
+  width: 55.55555555555555vw;
+  margin: auto;
+  height: 14.814814814814813vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -27.777777777777775vw;
+  top: -8vw;
+}
+.tk3 .p1 {
+  font-size: 4.0740740740740735vw;
+  margin-top: 14.814814814814813vw;
+  margin-bottom: 2.7777777777777777vw;
+}
+.tk3 .p1 .red {
+  color: #F75731;
+}
+.tk3 .p2 {
+  font-size: 3.518518518518518vw;
+  margin-bottom: 7.4074074074074066vw;
+  color: #aaaaaa;
+}
+.tk3 .btn {
+  background: #fed542;
+  width: 34.72222222222222vw;
+  height: 9.25925925925926vw;
+  line-height: 9.25925925925926vw;
+  margin: auto;
+  border-radius: 4.62962962962963vw;
+  font-size: 3.333333333333333vw;
+}
+/*# sourceMappingURL=tk.css.map */

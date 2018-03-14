@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<script>
+			var iWidth = document.documentElement.clientWidth;
+
+			document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/me_cl.css" />
+	</head>
+
+	<body>
+		<header class="me_head">
+			<p class="me_p3"><span>+</span><span class="num_all">13225</span></p>
+		<p class="me_p4">预计收益(元)</p>
+		</header>
+		<header class="me_head2">
+			<div class="left">
+				<p class="me_p1">1652</p>
+				<p class="me_p2">当前总资产(元)</p>
+			</div>
+			<div class="right">
+				<p class="me_p1">1652</p>
+				<p class="me_p2">已获得收益(元)</p>
+			</div>
+		</header>
+		<section>
+			<div class="me_moddle">
+				<ul>
+					<li class="le1">
+						<img src="../img/aa.jpg"/>
+					</li>
+					<li class="le2">
+						<div class="me_up">
+							<p><span class="user_name">凹凸曼 </span><span class="user_money">22.6</span> </p>
+						</div>
+						
+						<div class="me_down">
+							<img src="img/tongda.png" alt="" />
+							<span>可用余额</span>
+						</div>
+					</li>
+					<li class="le3"></li>
+				</ul>
+			</div>
+			
+			
+		</section>
+	
+<!--		<section class="me_main">
+			<div class="d01"></div>
+			<div class="d02"></div>
+			<div class="d03"></div>
+			<div class="d04"></div>
+		</section>-->
+	</body>
+
+</html>
+<script src="../js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	function numAnimat6(cla) {
+		var sttime=30;
+	var end=1500;//结束时间
+	var num=$(cla).html()*1;
+	$(cla).html('')
+	var start=setInterval(function () {
+		sttime+=30;
+		var v=parseInt(num/1000*sttime)
+		if(sttime<end&&v<num){
+			//var v=(num/1000*sttime).toFixed(2);	
+
+			$(cla).html(v)	
+		}else{
+			$(cla).html(num)	
+			clearInterval(start)
+		}
+	},30);
+}
+numAnimat6('.num_all');
+</script>

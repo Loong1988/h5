@@ -1,0 +1,343 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
+    <link type="text/css" href="css/reset.css" rel="stylesheet" />
+    <link type="text/css" href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/jquery.xhmodal.css">
+    <link type="text/css" href="css/product_details.css" rel="stylesheet" />
+    <title>产品详情</title>
+</head>
+
+<body>
+    <div class="box">
+        <!-- 面包屑 -->
+        <div class="myContainer">
+            <a href="#">首页</a>
+            <a href="">&gt;</a>
+            <a href="#">我要投资</a>
+            <a href="">&gt;</a>
+            <a href="#">转让债权</a>
+            <a href="">&gt;</a>
+            <span>项目详情</span>
+        </div>
+        <div class="main clearfix">
+            <div class="main_l">
+                <div class="main_l_t">
+                    <p>债权转让<span>17012</span></p>
+                    <a href="#" class="xxhb">到期还本付息</a>
+                </div>
+                <div class="clear"></div>
+                <div class="main_l_o">
+                    <p>债权转让<span>18020.42</span><b>元</b><img src="images/shuomingicon.png" class="wenhao"></p>
+                </div>
+                <div class="main_l_n">
+                    <div class="main_l_n_o  shows">债权价值=本金+(已持有天数/到期总天数)*到期利息</div>
+                </div>
+                <div class="main_l_b">
+                    <dl>
+                        <dd>年化</dd>
+                        <dt class="nianhua">7%+7%</dt>
+                    </dl>
+                    <dl style="width:205px;">
+                        <dd>时间期限</dd>
+                        <dt><span>30天</span></dt>
+                    </dl>
+                    <dl style="width:245px;border-right:none;">
+                        <dd>时间期限</dd>
+                        <dt><span>2016-07-03</span></dt>
+                    </dl>
+                </div>
+            </div>
+            <div class="main_r">
+                <div class="main_r_t">
+                    <h6><p>最高投资金额</p>
+                    	<span id="more_money"> 18000.24</span><span id="">元 </span>
+                    	
+                  </h6>
+                </div>
+                <!--
+                可投资box
+            -->
+                <div class="main_r_b investBox">
+                    <h5>投资金额：</h5>
+                    <!--金额足够-->
+                    <nav >
+                    <div class="main_input">
+                        <a class="minusMoney" href="####">-</a>
+                        <input type="text" placeholder="1000元"  class="moneyInput">
+                        <a class="addMoney" href="####">+</a>
+                    </div>
+                    <h4>1000起投，以1000的整倍数递增</h4>
+                    </nav>
+                    <!--金额不够-->
+                    <nav class="moneynot" style="display: none;">
+                    	<span>598.98</span><span>(元)</span>
+                    </nav>
+                    <div class="main_input">
+                    	<!--优惠卷 coupon   没有 no_coupon-->
+                        <div class="sel_tak  coupon">
+                        	您有优惠券可以使用
+                        </div>
+                    </div>
+                    <h6>降价：<span class="lilv">0.2%</span><b class="youhui">(20.42元)</b></h6>
+                    <h6>预期收益：<span>206,72元</span></h6>
+                    <a id="investBtn" href="javascript:void(0);">确认收购</a>
+                </div>
+                <!--
+                已结束box
+            -->
+                <div class="main_r_b endDisBg">
+                    <!-- 错误提示 -->
+                    <div class="tipsEnd">已完成，去看看其他标吧！</div>
+                    <button class="disInvest" disabled="disabled">已结束</button>
+                </div>
+                <!--
+                还款中box
+            -->
+                <div class="main_r_b repayDisBg">
+                    <!-- 错误提示 -->
+                    <div class="expectBonus">预计到期收益（元）：<span>8000元</span></div>
+                    <button class="disInvest" disabled="disabled">还款中...</button>
+                </div>
+            </div>
+        </div>
+        <div class="cont">
+            <div class="cont_l">
+                <div class="cont_l_t">
+                    <h6>投资纪录</h6>
+                </div>
+                <div class="cont_l_o">
+                    <ul>
+                        <li><a href="#">等级</a></li>
+                        <li><a href="#">投资人</a></li>
+                        <li><a href="#">投资金额</a></li>
+                        <li><a href="#">投资时间</a></li>
+                    </ul>
+                </div>
+               
+                <div class="moreLoan cf">
+                    <div class="cont_l_b">
+                        <ol style="margin-top: 9px;">
+                            <li>
+                                <a href="#"><img src="images/logoRank01.png"></a>
+                            </li>
+                            <li style="width: 164px;"><a href="#">我＊＊杨树1</a></li>
+                            <li style="width: 140px;"><a href="#" style="color: #ff960c;">3,6000元</a></li>
+                            <li style="width: 170px;"><a href="#">2016/06/06 21:30</a></li>
+                        </ol>
+                    </div>
+                    <div class="cont_l_b">
+                        <ol style="margin-top: 9px;">
+                            <li>
+                                <a href="#"><img src="images/logoRank01.png"></a>
+                            </li>
+                            <li style="width: 164px;"><a href="#">我＊＊杨树2</a></li>
+                            <li style="width: 140px;"><a href="#" style="color: #ff960c;">3,6000元</a></li>
+                            <li style="width: 170px;"><a href="#">2016/06/06 21:30</a></li>
+                        </ol>
+                    </div>
+                    <div class="cont_l_b">
+                        <ol style="margin-top: 9px;">
+                            <li>
+                                <a href="#"><img src="images/logoRank01.png"></a>
+                            </li>
+                            <li style="width: 164px;"><a href="#">我＊＊杨树3</a></li>
+                            <li style="width: 140px;"><a href="#" style="color: #ff960c;">3,6000元</a></li>
+                            <li style="width: 170px;"><a href="#">2016/06/06 21:30</a></li>
+                        </ol>
+                    </div>
+                    <div class="cont_l_b">
+                        <ol style="margin-top: 9px;">
+                            <li>
+                                <a href="#"><img src="images/logoRank01.png"></a>
+                            </li>
+                            <li style="width: 164px;"><a href="#">我＊＊杨树4</a></li>
+                            <li style="width: 140px;"><a href="#" style="color: #ff960c;">3,6000元</a></li>
+                            <li style="width: 170px;"><a href="#">2016/06/06 21:30</a></li>
+                        </ol>
+                    </div>
+                    <div class="cont_l_b">
+                        <ol style="margin-top: 9px;">
+                            <li>
+                                <a href="#"><img src="images/logoRank01.png"></a>
+                            </li>
+                            <li style="width: 164px;"><a href="#">我＊＊杨树5</a></li>
+                            <li style="width: 140px;"><a href="#" style="color: #ff960c;">3,6000元</a></li>
+                            <li style="width: 170px;"><a href="#">2016/06/06 21:30</a></li>
+                        </ol>
+                    </div>
+                    <div class="cont_l_b">
+                        <ol style="margin-top: 9px;">
+                            <li>
+                                <a href="#"><img src="images/logoRank03.png"></a>
+                            </li>
+                            <li style="width: 164px;"><a href="#">我＊＊杨树6</a></li>
+                            <li style="width: 140px;"><a href="#" style="color: #ff960c;">3,6000元</a></li>
+                            <li style="width: 170px;"><a href="#">2016/06/06 21:30</a></li>
+                        </ol>
+                    </div>
+                    <!-- 翻页 -->
+                    <div class="fan">
+                        <form method="" action="">
+                            <p style="left: 77px;">共98条</p>
+                            <ul class="pageStyle">
+                                <a href="#" class="pageArrow">上一页</a>
+                                <li><a class="active">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">...</a></li>
+                                <a href="#" class="pageArrow">下一页</a>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <a href="javascript:;" class="ckgd opeLoanBtn">
+                    <img src="images/arrowDown_03.png" class="moreLoanBtn" st='1'/>
+                    <!--<img src="images/arrowUp_06.png" class="shortLoanBtn" />-->
+                </a>
+            </div>
+            <div class="cont_r">
+                <a href="#">投资排行榜</a>
+            </div>
+        </div>
+
+
+        <div class="cont4">
+            <div class="cont4_t">
+                <h6>项目简介</h6>
+            </div>
+            <h5>转让说明：本项目为“财源滚滚17012”转让服务。<a href="#">点此查看原项目</a></h5>
+            <h4>债权转让达成后，债权拥有者将变更为新投资人</h4>
+            <h5>还款方式：到期还本付息</h5>
+            <h5>预期收益：<a href="####" onclick="proceeds_table(this)">点此生成预期收益表</a></h5>
+            <section class="proceeds_table" style="display: none;">
+            	<div class="rebackRecord">
+                        <table>
+                          <thead>
+                            <tr>
+                              <td class="columu01">期数</td>
+                              <td class="columu02">应回款日期</td>
+                              <td class="columu03">应回款金额</td>
+                              <td class="columu04">状态</td>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="columu01 bgWhite">1</td>
+                              <td class="columu02">16/04/22</td>
+                              <td class="columu03 mainCol bgWhite">0.00+1,000.00=1,000.00</td>
+                              <td class="columu04">已回款</td>
+                            </tr>
+                            <tr>
+                              <td class="columu01 bgWhite">1</td>
+                              <td class="columu02">16/04/22</td>
+                              <td class="columu03 mainCol bgWhite">0.00+1,000.00=1,000.00</td>
+                              <td class="columu04">已回款</td>
+                            </tr>
+                            <tr>
+                              <td class="columu01 bgWhite">1</td>
+                              <td class="columu02">16/04/22</td>
+                              <td class="columu03 mainCol bgWhite">0.00+1,000.00=1,000.00</td>
+                              <td class="columu04">已回款</td>
+                            </tr>
+                            <tr>
+                              <td class="columu01 bgWhite">1</td>
+                              <td class="columu02">16/04/22</td>
+                              <td class="columu03 mainCol bgWhite">0.00+1,000.00=1,000.00</td>
+                              <td class="columu04">已回款</td>
+                            </tr>
+                            <tr>
+                              <td class="columu01 bgWhite">1</td>
+                              <td class="columu02">16/04/22</td>
+                              <td class="columu03 mainCol bgWhite">0.00+1,000.00=1,000.00</td>
+                              <td class="columu04">已回款</td>
+                            </tr>
+                            <tr>
+                              <td class="columu01 bgWhite">1</td>
+                              <td class="columu02">16/04/22</td>
+                              <td class="columu03 mainCol bgWhite">0.00+1,000.00=1,000.00</td>
+                              <td class="columu04">已回款</td>
+                            </tr>
+   
+                          </tbody>
+                        </table>
+                      </div>
+            </section>
+        </div>
+        <div class="cont4">
+            <div class="cont4_t">
+                <h6>投资提示</h6>
+            </div>
+            <h5>文案待定</h5>
+           
+        </div>
+    </div>
+
+<!--弹框-->
+<section class="coupon_tk">
+	<img src="images/guanbi.png" class="guanbi"/>
+	<div  class="tit">请单击您要使用的优惠券</div>
+	
+	<div class="box">
+		
+	</div>
+	
+</section>
+<div class="gray"></div>
+	
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+</body>
+<script type="text/javascript">
+	$('.wenhao').hover(function () {
+		$('.shows').show()
+	},function () {
+		$('.shows').hide()
+	})
+	
+	
+	//点击排行榜 隐藏显示
+	$('.moreLoan>.cont_l_b:gt(3)').hide()//隐藏多余
+	$('.fan').hide()//隐藏翻页
+	//事件
+	$('.moreLoanBtn').click(function () {
+		var st=$(this).attr('st')
+		if(st==1){
+			$('.moreLoan>.cont_l_b:gt(3)').show()
+			$('.fan').show()
+			$(this).attr('st','2')
+			$(this).attr('src','images/arrowUp_06.png')
+		}else{
+				$('.moreLoan>.cont_l_b:gt(3)').hide()//隐藏多余
+				$('.fan').hide()//
+				$(this).attr('st','1')
+				$(this).attr('src','images/arrowDown_03.png')
+		}
+
+	})
+	
+	
+	function proceeds_table(obj) {
+		$(obj).parent().next().slideToggle();
+	}
+	
+	
+	$('.addMoney').click(function () {
+		var v=$('.moneyInput').val()*1
+		v+=1000;
+		$('.moneyInput').val(v)
+	})
+	$('.minusMoney').click(function () {
+		var v=$('.moneyInput').val()*1
+		v-=1000;
+		if(v>=0){
+			$('.moneyInput').val(v)
+		}
+	})
+</script>
+</html>

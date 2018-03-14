@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>swiper</title>
+<link href="../../js/swiper.min.css" rel="stylesheet">
+</head>
+<style type="text/css">
+	.swiper-slide a img{
+		width: 100%;
+		height: 200px;
+	}
+</style>
+<body>
+<div class="swlist">
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><a href="###"><img src="../img/timg1.jpg"></a></div>
+        <div class="swiper-slide"><a href="###"><img src="../img/timg2.jpg"></a></div>
+        <div class="swiper-slide"><a href="###"><img src="../img/timg3.jpg"></a></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+</div>
+
+<script type="text/javascript" src="../../js/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="../../js/swiper2.min.js"></script>
+<script>	
+$(function(){
+	var mySwiper = new Swiper('.swiper-container',{
+		pagination: '.swiper-pagination',//当前位置的图片点
+		speed: 400,
+		loop:true,//是够能够循环无缝滑动
+		grabCursor: true,
+		paginationClickable: true,//允许触摸
+		autoplay:3000//一秒切换
+	})
+});
+</script>
+</body>
+</html>

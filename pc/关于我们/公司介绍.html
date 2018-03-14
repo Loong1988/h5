@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0; list-style: none;}
+			.company_introduction{
+				position: relative;
+			}
+			.company_introduction .first1{
+				height: 670px;
+				background: #f4f4f4;
+			}
+			.company_introduction .first2{
+				height: 550px;
+				background: #ffffff;
+			}
+						.company_introduction .first3{
+				height: 510px;
+				background: #f4f4f4;
+			}
+			.company_introduction .first4{
+				height: 1440px;
+				background: #ffffff;
+			}
+			.company_introduction>img{
+
+				position: absolute;
+				top:0;
+				left: 50%;
+				margin-left: -505px;
+				width: 1010px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--公司介绍-->
+		<section class="company_introduction">
+			
+			<div class="first1"></div>
+			<div class="first2"></div>
+			<div class="first3"></div>
+			<div class="first4"></div>
+			<img src="company_introduction.png"/>
+		</section>
+		<!--公司介绍-->
+	</body>
+</html>
+<script src="../../js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+		$('.dhang li').click(function () {
+		var indexs=$(this).index();
+		console.log(indexs)
+		$('section').eq(indexs).show().siblings('section').hide()
+	})
+</script>

@@ -1,0 +1,124 @@
+.header {
+	background: #f75831 none repeat scroll 0 0;
+	color: white;
+	font-size: 0.8rem;
+	height: 2rem;
+	/*left: 0;*/
+	line-height: 2rem;
+	/*position: absolute;*/
+	text-align: center;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.back {
+	float: left;
+	margin-left: 0.5rem;
+	margin-top: 5px;
+}
+
+.back img {
+	height: 0.825rem;
+	width: 0.55rem;
+}
+
+html,
+body {
+	background: #eeeeee;
+}
+
+.bank_card {
+	width: 15rem;
+	height: 8.85rem;
+	border-radius: 0.2rem;
+	margin: 0.6rem auto;
+
+}
+.card_color1{
+		background: -webkit-linear-gradient(left, #fe7846, #fe9c42);
+	/* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #fe7846, #fe9c42);
+	/* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #fe7846, #fe9c42);
+	/* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #fe7846, #fe9c42);
+	/* 标准的语法（必须放在最后） */
+}
+.card_color2{
+		background: -webkit-linear-gradient(left, #38d4c9,#40e9ba);
+
+	background: -o-linear-gradient(right, #38d4c9,#40e9ba);
+
+	background: -moz-linear-gradient(right, #38d4c9,#40e9ba);
+
+	background: linear-gradient(to right, #38d4c9,#40e9ba);
+}
+.card_color3{
+	background: -webkit-linear-gradient(left, #61a7e9,#61d2f4);
+
+	background: -o-linear-gradient(right,#61a7e9,#61d2f4);
+
+	background: -moz-linear-gradient(right, #61a7e9,#61d2f4);
+
+	background: linear-gradient(to right, #61a7e9,#61d2f4);
+}
+.bank_card_up {
+	height: 4rem;
+	padding: 1rem 1rem 0 0.75rem;
+}
+
+.bank_card_up>img {
+	width: 3.25rem;
+	height: 3.25rem;
+	display: block;
+	float: left;
+}
+
+.bank_card_up>p {
+	float: left;
+	width: 10rem;
+	text-indent: 1rem;
+}
+.bank_head_tit{
+	color: #444444;
+	font-size: 0.55rem;
+	    width: 15rem;
+	    margin:0.9rem auto;
+}
+.bank_card_up .back_p1 {
+	margin-top: 0.25rem;
+	font-size: 0.625rem;
+	color: #FFFFFF;
+}
+.bank_card_up .back_p1 span{
+float: right;
+}
+.bank_card_up .back_p2 {
+	font-size: 0.95rem;
+	color: #FFFFFF;
+	margin-top: 0.75rem;
+}
+.bank_card_down{
+	width: 100%;
+	height: 3.85rem;
+	font-size:0.625rem ;
+	color: #f75731;
+	overflow: hidden;
+}
+.bank_card_down>div{
+	width: 8.75rem;
+	height: 2rem;
+	background: #ffffff;
+	text-align: center;
+	border-radius: 1rem;
+	margin: auto;
+	line-height: 2rem;
+	margin-top: 0.925rem;
+}
+.bank_card_foot{
+	width: 13rem;
+	height: 5rem;
+	display: block;
+	margin: auto;
+}

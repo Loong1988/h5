@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+		load页面计时
+		
+		<div class="one">0</div>
+	</body>
+</html>
+<script src="js/jquery3.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	var st=0;
+	function statr() {
+		$('.one').html(st)
+		st++;
+		if(st==60){
+			clearInterval(f)
+		}
+	}
+	var f=setInterval(statr,1000)
+</script>

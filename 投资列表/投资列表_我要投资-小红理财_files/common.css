@@ -1,0 +1,177 @@
+@charset "utf-8";
+/*公共样式 start*/
+
+html{
+	font-size: 20px;
+	-webkit-text-size-adjust:none;
+	-ms-webkit-text-size-adjust:none;
+	-moz-webkit-text-size-adjust:none;
+	-webkit-tap-highlight-color:#fff;
+	-ms-tap-highlight-color:#fff;;
+	-moz-tap-highlight-color:#fff;;
+
+}
+input:focus {
+    outline : none;
+}
+button{cursor:pointer;font-family:"Microsoft YaHei";}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video,input{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+input,textarea,button{outline:0;}
+textarea{resize:none}
+html,body,form,fieldset,p,div,h1,h2,h3,h4,h5,h6{-webkit-text-size-adjust:none}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+a{text-decoration:none;}
+body{font-family:"Microsoft YaHei","Hiragino Sans GB",Arial,"Lucida Grande",Verdana;font-size:14px;background-color:#fff;-webkit-text-size-adjust:none;-webkit-user-select:none; -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+body{font-family:"Microsoft YaHei"!important;}
+ol,ul{list-style:none}blockquote,q{quotes:none}
+img,table{border:0}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+select{-webkit-appearance:button;border:0}
+table{border-collapse:collapse;border-spacing:0}.clearfix:after{content:'\0020';display:block;height:0;clear:both}
+.clearfix{*zoom:1}
+input[type=button],input[type=submit],input[type=reset]{-webkit-appearance:none}
+.cf:after{content:"";display:block;clear:both;}
+.cf{zoom:1;}
+.left{float: left;}
+.right{float: right;}
+.swiper-container{height: 7rem}
+.swiper-container li{float: left;}
+.swiper-container{backface-visibility:hidden;overflow: hidden;position: relative;}
+.swiper-container ul li a{display: inline-block;}
+.swiper-slide img{width:100%;}
+/*公共样式 end*/
+.cj_herder>a {
+    overflow: hidden;
+    display: block;
+    width: 2rem;
+    position: absolute;
+    height: 2rem;
+}
+/*弹框  */
+	.gray_main{
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.3);
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index:10;
+		
+		
+	}
+	.tk_main{
+	width: 8rem;
+	height: 6rem;
+	background: #FFFFFF;
+	position: fixed;
+	z-index: 11;	
+	display: none;
+	top: 6rem;
+	left: 4rem;
+	border-radius: 5px;
+	
+	}
+	
+.tk_main img {
+    width: 1.45rem;
+    height: 1.45rem;
+    display: block;
+    margin: auto;
+    margin-top: 0.9rem;
+}
+.tk_main p {
+    font-size: 0.6rem;
+    color: #444444;
+    margin-top: 0.9rem;
+    text-align: center;
+    padding: 0 0.6rem;
+}
+@-webkit-keyframes ss{
+	from{display: block;}
+	90%{opacity: 100%;}
+	80%{opacity: 100%;}
+	70%{opacity: 100%;}
+	60%{opacity: 100%;}
+	50%{opacity: 100%;}
+	40%{opacity: 90%;}		
+	30%{opacity: 80%;}
+	20%{opacity: 50%;}
+	10%{opacity:5%;}
+	to{opacity: 0;}
+	
+}
+@keyframes ss{
+	from{display: block;}
+	90%{opacity: 100%;}
+	80%{opacity: 100%;}
+	70%{opacity: 100%;}
+	60%{opacity: 100%;}
+	50%{opacity: 100%;}
+	40%{opacity: 90%;}		
+	30%{opacity: 80%;}
+	20%{opacity: 50%;}
+	10%{opacity:5%;}
+	to{opacity: 0;}
+}
+.show{
+/* 	animation: ss 1s;
+	animation-delay:2s;
+	-webkit-animation:ss 1s;
+	-webkit-animation-delay: 2s;
+	z-index: 11;
+	opacity: 1; */
+	display:block;
+}
+.footer>.gjn_zc{    border-top: 1px solid #EEEEEE;}
+.footer>.gjn_zc>p{
+	font-size: 0.45rem!important;
+	line-height: 1rem;
+}
+.footer button{
+	font-family:"Microsoft YaHei";
+}
+.header{
+	font-size: 0.7rem!important;
+}
+/* 底部导航 */
+/*底部*/
+.w_last_bottom{
+	position: fixed;
+	bottom: 0;
+	background-color:rgba(255,255,255,0.9);
+	border-top: 1px solid #eeeeee;
+	width: 100%;
+}
+.w_last_bottom ul li{
+	float: left;
+	width: 25%;
+	height: 2.45rem;
+	text-align: center;
+}
+.w_last_bottom ul li a{
+
+}
+.w_last_bottom ul li span img{
+	height: 1.25rem;
+	margin: 0.25rem auto 0 auto;
+}
+.w_bottom_text{
+	font-size: 0.55rem;
+	color: #999;
+}
+.w_bottom_img1,.w_bottom_img2,
+.w_bottom_img3,.w_bottom_img4{
+	height: 1.25rem;
+	width: 1.25rem;
+	margin-top: 0.18rem;
+}
+.w_active .w_bottom_text{
+	color: #e74737;
+}
+
+/* 底部导航 */

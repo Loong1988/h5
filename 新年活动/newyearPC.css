@@ -1,0 +1,26 @@
+.all .bac{
+				width: 100%;
+			}
+			.all .new{
+				position: relative;
+			}
+			.all .new .btn{
+				width: 25vw;
+    position: absolute;
+    bottom: 0vw;
+    left: 37.5vw;			
+			}
+			.all .year3 .btn{
+
+			        bottom: 14vw;
+				
+			}
+			.indexPC{
+				    position: absolute;
+				    top: 1.5vw;
+				    right: 31vw;
+				    width: 5vw;
+			}
+			.new{
+				font-size: 0;
+			}

@@ -1,0 +1,127 @@
+/* 公共头部 */
+body{
+	background: #eee;
+}
+.htdd{
+	width: 100%;
+	height: 6.25rem;
+
+}
+.cj_herder{
+	width: 100%;
+	height: 2rem;
+	background: #f75731;
+}
+.cj_herder img{
+	width: 0.375rem;
+	height: 0.65rem;
+	float: left;
+	margin-left: 0.5rem;
+	margin-top: 0.7rem;
+	position: absolute;
+ }
+.cj_herder h1{
+	text-align: center;
+	font-size: 0.7rem;
+	color: #fff;
+	line-height: 2rem;
+}
+.my_banner{
+	width: 100%;
+	height: 4.8rem;
+	background: url(../images/my_beijing.png) no-repeat center;
+	background-size: 100% 100%;
+	margin-top: -1px;
+}
+.my_banner a{
+	float: right;
+	font-size: 0.55rem;
+	margin-right: 0.5rem;
+	color: #fcc7bf;
+}
+.my_banner h6{
+	clear:both;
+	text-align: center;
+	font-size: 2.1rem;
+	color: #fff228;
+	font-weight: bold;
+}
+.my_banner p{
+	text-align: center;
+	font-size: 0.6rem;
+	color: #fff228;
+}
+.list{
+	margin-top: 0.6rem;
+}
+.list ul{
+	display: flex;
+	flex-direction: column;
+}
+.list ul li{
+	height: 2.5rem;
+	background: #ffffff;
+	display: flex;	
+	align-items: center;
+	font-size: 0.65rem;
+}
+.list ul li img{
+	height: 0.7rem;
+	width: 0.7rem;
+	
+}
+.list ul nav{
+	flex: 80;
+	height: 0.8rem;
+	display: flex;
+    align-items: center;;
+    justify-content: center;
+}
+.cj_herder>a{
+	position: absolute;
+	width: 2rem;
+	height: 2rem;
+}
+.list ul li>.sp1{
+	flex: 250;
+	height: 0.8rem;
+	line-height: 0.8rem;
+}
+.list ul li>.sp2{
+	height: 0.8rem;
+	flex: 175;
+	color: #f75731;
+	line-height: 0.8rem;
+}
+.list ul li>div{
+	flex: 136;
+}
+.list ul li{
+	border-bottom: 1px solid #EEEEEE;
+}
+.list ul li .btn{
+	display: flex;
+	background: #ffa52d;
+	width: 2.9rem;
+	height: 1.5rem;
+	border-radius:5px;
+	align-items: center;
+	justify-content: center;
+	color: #FFFFFF;
+	font-size: 0.55rem;
+	
+}
+.list ul li .yesbtn:active {
+    background: #f09c2a!important;
+}
+.list ul .nobtn .sp2{
+	color: #AAAAAA;
+}
+.list ul .nobtn {
+	order: 5;
+}
+.list ul .nobtn .btn{
+	background: none;
+	border: 1px dashed #aaaaaa;
+	background: url(../images/gain_duigou.png) no-repeat center center/1rem auto;
+}

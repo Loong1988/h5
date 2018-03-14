@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0; list-style: none;}
+			.new{
+				font-size: 0;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="newyearPC.css"/>
+	</head>
+	<body>
+		<section class="all">
+			<a href="javascript:void()">
+			<div class="year1 new">
+				<img src="img2/newyear1.jpg" alt="" class="bac"/>
+				<a href="">
+					<img src="img2/newyearbtn1.png" alt="" class="btn"/>
+				</a>
+				<a href="">
+					<img src="img2/year_index1.png" class="indexPC"/>
+				</a>
+			</div>
+			</a>
+			<a href="javascript:void()">
+			<div class="year2 new">
+				<img src="img2/newyear2.jpg" alt="" class="bac"/>
+							<a href="">
+					<img src="img2/newyearbtn1.png" alt="" class="btn"/>
+				</a>
+			</div>
+			</a>
+			<a href="javascript:void()">
+			<div class="year3 new">
+				<img src="img2/newyear3.jpg" alt="" class="bac"/>
+							<a href="">
+					<img src="img2/newyearbtn1.png" alt="" class="btn"/>
+				</a>
+			</div>
+			</a>
+		</section>
+	</body>
+</html>
+<script src="../js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+            $(".all .new .btn").hover(function () {
+            	$(this).attr("src", "img2/newyearbtn2.png")
+            },function () {
+            	$(this).attr("src", "img2/newyearbtn1.png")
+            })
+            $(".indexPC").hover(function () {
+            	$(this).attr("src", "img2/year_index2.png")
+            },function () {
+            	$(this).attr("src", "img2/year_index1.png")
+            })
+            
+            
+            
+</script>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link type="text/css" href="css/reset.css" rel="stylesheet"/>
+<link type="text/css" href="css/activity_zone.css" rel="stylesheet"/>
+<script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+<title>文库列表</title>
+</head>
+<body ng-app="app" ng-controller="one">
+<div class="wrapper">
+    <div class="cont_l">
+        <div class="cont_l_t">
+            <h6>资讯推荐</h6>
+        </div>
+        <div class="cont_l_b">
+            <h6>1.文库列表</h6>
+        </div>
+    </div>
+    <div class="cont_r">
+        <div class="cont_r_t">
+            <h6>当前位置：首页 / 科技文库</h6>
+        </div>
+        
+        <div class="cont_r_b"  ng-repeat="x in list |numm:page">
+            <img src="images/1.png">
+            <div class="cont_r_b_r">
+                <h5>{{x.src}}</h5>
+                <p>{{x.txt}}</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="fan">
+    <form method="" action="">
+        <ul class="pageStyle">
+            <a href="#" class="pageArrow">上一页</a>
+            <li><a class="active">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">...</a></li>
+            <a href="#" class="pageArrow pageArrow1">下一页</a>
+        </ul>
+    </form>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery.js">
+</script>
+<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+
+$('.cont_r_b_r>p').each(function () {
+	var font=$(this).html()
+	if(font.length>70){
+		var sub=font.substr(70,70)+'...'
+		$(this).html(sub)
+	}
+	
+})
+	
+var app=angular.module('app',[]);
+app.controller('one',function ($scope) {
+	$scope.list=list;
+	$scope.page=2
+})
+
+app.filter('numm',function(){
+    return function(all,page){//all是 过滤数据。page是外部参数，在过滤时传入
+    	var out = [];
+     angular.forEach(all, function (language) {//language 循环数据
+		if (language.id<=page) {
+			out.push(language);
+		}
+	});
+		return out;//返回 过滤后的数据
+    }
+});
+</script>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>
+<script type="text/javascript">
+	
+	
+	//人生预测器
+	for (var i = 0; i <7; i++) {		
+		if(i>4){
+			var overtime=parseInt(Math.random()*8)
+			if(overtime>5){
+				work(i)
+				 continue;
+			}			
+		}		
+		if(i<5){			
+			work(i)
+		}else{
+			rest(i)
+		}		
+	}	
+	function work(i) {
+		i++
+		console.log("今天是周"+i+'----工作')
+	}
+	function rest(i) {
+		i++
+		console.log("今天是周"+i+'----休息')
+	}
+	
+	
+
+</script>

@@ -1,0 +1,161 @@
+
+html,body {
+    font-family: "Microsoft Yahei";
+    height: 100%;
+    background:#EEEEEE;
+    font-size: 50px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.me_head{
+	height: 6.25rem;
+	width:100%;
+	background: url(../img/me_head.png) no-repeat scroll 0 0/100% 6.25rem;
+overflow: hidden;	
+}
+.me_head p{
+	text-align: center;
+	color: #fdf426;
+}
+.me_head .me_p3{
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 1.75rem 0 0.25rem 0;
+}
+.me_head .me_p4{
+	font-size: 0.7rem;
+}
+.me_head2{
+	height: 3.25rem;
+
+}
+.me_head2>div{
+	float: left;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	color: #fdf426;
+}
+.me_head2 .left{
+	background: #ed5e3b;
+}
+.me_head2 .right{
+	background: #e45737;
+}
+.me_head2 .me_p1{
+	font-size: 0.9rem;
+	margin: 0.5rem 0 0.25rem 0;
+	
+}
+.me_head2 .me_p2{
+	font-size: 0.625rem;
+}
+.me_moddle{
+	height: 4rem;
+	/*border-bottom: 1px solid #EEEEEE;*/
+}
+.me_moddle ul>li{
+	float: left;
+	height: 4rem;
+}
+.me_moddle ul>.le1{
+	width:20%;
+
+}
+.le1 img{
+	width: 2.55rem;
+	height: 2.55rem;
+	display: block;
+	margin:0.725rem auto;
+	border-radius: 1.275rem;
+	border: 2px solid #fead3d;
+
+}
+.me_moddle ul>.le2{
+	width: 60%;
+}
+.le2 .user_name{
+	font-size: 0.7rem;
+	color: #666666;
+}
+.me_up{
+	height: 2rem;
+	line-height: 2.5rem;
+}
+.me_up>p{
+position: relative;
+}
+.le2 .user_money{
+	font-size: 0.7rem;
+	/*display: inline-block;*/
+	/*float: right;*/
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color:#e45737 ;
+}
+.me_moddle ul>.le3{
+	width:20%;
+	background:  url(../img/tiaozhuan.png) no-repeat scroll center;	
+	
+}
+.me_down>img{
+	vertical-align: middle;
+	width: 1rem;
+}
+.me_down>span{
+	    font-size: 0.7rem;
+	    color:#aaaaaa;
+	    display: block;
+	    float: right;
+}
+.me_main{
+	overflow: hidden;
+}
+.me_main>div{
+	height: 5.75rem;
+	width: calc(50% - 0.5px);
+	float: left;
+	border-top: 1px solid #EEEEEE;
+	
+	
+}
+.me_main .d01,.d03{
+	border-right:1px solid #EEEEEE;
+}
+.me_main .d01{
+	background: url(../img/my4.png) no-repeat scroll center;	
+	background-size: 8rem 5.75rem;
+}
+.me_main .d02{
+	background: url(../img/my2.png) no-repeat scroll center;
+	background-size: 8rem 5.75rem;	
+}
+.me_main .d03{
+	background: url(../img/my3.png) no-repeat scroll center;
+	background-size: 8rem 5.75rem;	
+}
+.me_main .d04{
+	background: url(../img/my1.png) no-repeat scroll center;
+	background-size: 8rem 5.75rem;	
+}
+section{
+	background: #FFFFFF;
+}
+}
+.me_main .d01{
+	background: url(../images/my4.png) no-repeat scroll center;	
+	background-size: 8rem 5.75rem;
+}
+.me_main .d02{
+	background: url(../images/my2.png) no-repeat scroll center;
+	background-size: 8rem 5.75rem;	
+}
+.me_main .d03{
+	background: url(../images/my3.png) no-repeat scroll center;
+	background-size: 8rem 5.75rem;	
+}

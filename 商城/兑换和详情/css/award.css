@@ -1,0 +1,141 @@
+*{margin: 0;padding: 0; list-style: none;    font-family: "Microsoft YaHei","Hiragino Sans GB",Arial,"Lucida Grande",Verdana;}
+.header {
+    background: #f75831 none repeat scroll 0 0;
+    color: #ffffff;
+    font-size: 0.7rem;
+    height: 2rem;
+    line-height: 2rem;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 10;
+}
+.header img{
+position: absolute;
+width: 0.375rem;
+height: 0.65rem;
+top:  0.65rem;
+left: 0.5rem;
+}
+.header a{
+position: absolute;
+width: 2rem;
+height: 2rem;
+
+}
+.imgbox{
+margin-top: 2rem;
+}
+.imgbox>div{
+position: relative;
+overflow: hidden;
+    height: 60vw;
+}
+.imgbox .imgtop{
+width: 100%;
+height: 60vw;
+position: absolute;
+
+z-index: -1;
+}
+.imgbox .guize{
+
+
+background: rgba(137,137, 137,0.4);
+width: 18vw;
+height: 0.75rem;
+line-height: 0.75rem;
+text-align: center;
+font-size: 0.5rem;
+color:#ffffff ;
+float: right;
+margin-right: 0.5rem;
+margin-top: 0.25rem;
+border-radius: 2px;
+ padding:  0.08rem 0;
+
+
+}
+.bottom_name{
+position: absolute;
+bottom: 0;
+z-index: 1;
+height: 2.25rem;
+font-size: 0.65rem;
+color: #FFFFFF;
+width: 100%;
+background: url(../img/bottom_name.png) repeat scroll 0 0 / 100% 2.25rem;
+line-height: 2.25rem;
+text-indent: 0.5rem;
+}
+.prics{
+height: 3.75rem;
+border-bottom: 1px solid #eeeeee;
+display: flex;
+}
+
+.prics .left{
+flex: 1;
+line-height: 3.75rem;
+padding-left: 0.5rem;
+}
+
+.prics .right{
+flex: 1;
+
+}
+.prics .right .btn{
+width: 42vw;
+height: 2rem;
+background: #ffa52d;
+color: #FFFFFF;
+font-size: 0.6rem;
+text-align: center;
+line-height: 2rem;
+border-radius:1rem;
+float: right;
+margin-right: 0.5rem;
+margin-top: 0.875rem;
+
+
+
+}
+.prics .left>span:nth-child(1){
+color: #ffa52d;
+font-size: 1.5rem;
+}
+
+.prics .left>span:nth-child(2){
+color: #AAAAAA;
+font-size: 0.625rem;
+margin-left: 5px;
+}
+
+.describe{
+padding:0.75rem 0.5rem;
+}
+.describe>div{
+margin-bottom: 0.5rem;
+}
+.describe h4{
+font-size: 0.65rem;
+color: #444444;
+    font-weight: 900;
+    margin-bottom: 0.2rem;
+}
+.describe p{
+font-size: 0.55rem;
+line-height: 175%;
+}
+.hyellow{
+color: #ffa52d;
+}
+.right .yesbtn:active{background: #f09c2a!important;}
+
+.prics .right .nobtn{
+background:#CCCCCC;
+}
+
+

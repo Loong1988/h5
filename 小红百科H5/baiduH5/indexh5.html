@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/find2.css" />
+		<meta http-equiv="pragma" content="Public" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /> </head>
+
+	<body>
+		<div class="header_find_cl">
+			<div>
+				<div class="header_tit_cl act_cl">小红资讯</div>
+				<div class="header_tit_cl ">关于我们</div>
+				<div class="header_tit_cl ">产品介绍</div>
+			</div>
+		</div>
+		<p style="height:2rem;"></p>
+		<section class="one sec_act"> <img src="img/jianjie.png" /> </section>
+		<section class="notice sec_list sec_act"> <img src="img/us.jpg" /> </section>
+		<section class="news sec_list sec_act"> <img src="img/chanpin.jpg" /> </section>
+	</body>
+
+</html>
+<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+	var iWidth = document.documentElement.clientWidth;
+	document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	$('.header_find_cl .header_tit_cl').click(function() {
+		$(this).addClass('act_cl').siblings().removeClass('act_cl')
+		var i = $(this).index();
+		$(".sec_act").css('display', 'none')
+		$(".sec_act:eq(" + i + ")").css('display', 'block')
+	})
+</script>

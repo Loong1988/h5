@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0; list-style: none;}
+			.year1{
+				height: 75vh;
+				background: url(img2/newyear1.jpg) no-repeat;
+				background-size:100% auto;
+			}
+			.year2{
+				height: 50vh;
+				background: url(img2/newyear2.jpg) no-repeat;
+				background-size:auto 75vh;
+			}
+			.year3{
+				height: 75vh;
+				background: url(img2/newyear3.jpg) no-repeat;
+				background-size:auto 75vh;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="newyear.css"/>
+	</head>
+	<body>
+		<section class="all">
+			<a href="javascript:void()">
+			<div class="year1 new">
+				<!--<img src="img2/newyear1.jpg" alt="" class="bac"/>
+				<img src="img/huodongbtn1.png" alt="" class="btn"/>-->
+			</div>
+			</a>
+			<a href="javascript:void()">
+			<div class="year2 new">
+				<!--<img src="img2/newyear1.jpg" alt="" class="bac"/>
+				<img src="img/huodongbtn1.png" alt="" class="btn"/>-->
+			</div>
+			</a>
+			<a href="javascript:void()">
+			<div class="year3 new">
+				<!--<img src="img2/newyear1.jpg" alt="" class="bac"/>
+				<img src="img/huodongbtn1.png" alt="" class="btn"/>-->
+			</div>
+			</a>
+		</section>
+	</body>
+</html>
+<script src="../js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	        $(".all .new .btn").on("touchstart", function() {
+                $(this).attr("src", "img/huodongbtn2.png")
+            })
+             $(".all .new .btn").on("touchend", function() {
+                $(this).attr("src", "img/huodongbtn1.png")
+            });
+</script>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.d1 {
+				border: 1px solid;
+				height: 200px;
+				display: flex;
+			}
+			
+			.dd1 {
+				flex: 1;
+			}
+			
+			.dd2 {
+				flex: 4;
+				background: gainsboro;
+				display: flex;
+				align-items: flex-end;
+			}
+			
+			.dd3 {
+				flex: 1;
+			}
+			
+			.dd2 span {
+				flex: 1;
+				border: 1px solid;
+			}
+			
+			.tk {
+				height: 50px;
+				width: 150px;
+				background: grey;
+				position: absolute;
+				display: none;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="d1">
+			<div class="dd1"></div>
+			<div class="dd2">
+
+				<span>122</span><span>12312</span>
+			</div>
+			<div class="dd3"></div>
+
+		</div>
+
+		<div class="tk">asdfasdfasdfasdf</div>
+	</body>
+
+</html>
+<script src="../js/jquery3.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$('.dd2 span').hover(function() {
+		$(this).css('background', 'cornflowerblue')
+		var t = $(this).position().top-50
+		var l = $(this).position().left-10
+		$('.tk').css({top:t,left:l,display:'block'})
+	
+	}, function() {
+		$(this).css('background', '')
+		$('.tk').css({display:'none'})
+	})
+</script>

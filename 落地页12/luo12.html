@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>落地页12</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<script>
+			var iWidth = document.documentElement.clientWidth;
+
+			document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+		</script>
+		<style type="text/css">
+		html,body{height: 100%;margin: 0;padding: 0;}
+			.bac_div{
+				position: absolute;
+				top: 0;
+				z-index: -1;
+
+			}
+			.bac_div>img{
+				width: 16rem;
+			}
+			.tv{
+				
+				background: url(img/tv.png) no-repeat center/100%;
+				width: 100%;
+				height: 18.5rem;
+				   
+				    overflow: hidden;
+				    display: none;
+				
+			}
+			.tv>input{
+				width: 11rem;
+			    height: 1.9rem;
+			    border: 1px solid #e5e27a;
+			    background: #fff;
+			    text-align: center;
+			    font-size: 0.7rem;
+			    border-radius: 3px;
+			    
+			   display: block;
+			    margin: auto;			
+			    margin-top: 8.3rem;
+			}
+			.tv>span{
+				    font-size: 0.55rem;
+				    color: #ff0000;
+				    float: left;
+				    margin-left: 2.5rem;
+				        /*line-height: 0.8rem;*/
+				            margin-top: 0.06rem;
+			}
+			.tv>img{
+				width: 70%;
+				display: block;
+				margin: auto;
+				margin-top: 1.2rem;
+			}
+			.tv>p{
+				font-size: 0.55rem;
+			    color: #fff;
+			    margin-top: 0.2rem;
+			    text-align: center;
+			}
+			.biao>.bac{
+				width: 15rem;
+				display: block;				
+				margin: auto;
+			}
+			.ma9{ margin-top: 9.5rem;}
+			.biao>.btn{
+				width:8.375rem;
+				display: block;	
+					    height: 2.275rem;		
+				margin: auto;
+				position:relative;
+				top: -3.7rem;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="bac_div">
+				<img src="img/ldy2bac.png"/>
+		</div>
+		<div class="ma9"></div>
+		<div class="tv">
+			<input type="text" name="" id="" value="" />
+			<span id="error">请输入正确的手机号</span>
+			<img src="img/ldy1_btn2.png"/>
+			<p>已有32226人成功领取</p>
+		</div>
+		
+		<div class="biao">
+			<img src="img/ldy2biao.png" class="bac"/>
+			<img src="img/ldy1_btn1.png" class="btn"/>
+		</div>
+		
+		<style type="text/css">
+/*			.newbtn{
+				width: 100vw;
+				height: 40vw;
+				margin: auto;
+				position: fixed;
+				bottom: 10vw;
+			}*/
+			.newbtn img{
+				width: 100%;
+				position: fixed;
+				bottom: 0;
+			}
+		</style>
+		<div class="newbtn">
+			
+			<img src="60天文件导出/落地页完-03.png"/>
+		</div>
+		
+	</body>
+
+</html>

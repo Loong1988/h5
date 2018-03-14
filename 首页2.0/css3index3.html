@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我要领取</title>
+		
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<script>
+			var iWidth = document.documentElement.clientWidth;
+
+			document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+		</script>
+		<link rel="stylesheet" type="text/css" href="index2.css" />
+	</head>
+
+	<body>
+		<section class="new_obj">
+			<header>
+				新手专享
+			</header>
+<style type="text/css">
+	.symbol{
+		font-size: 1.5rem;
+	}
+	.symbol2{
+		font-size: 1.5rem;
+		    vertical-align: top;
+	}
+	.dl_left span{
+		letter-spacing: -0.8rem;
+	}
+</style>
+			<div class="body_cl_new">
+				<dl class="dl_left">
+					<dt>
+
+						<span class="p1" wicket:id="rate">7</span>
+						<span class="symbol">%</span>
+						<span class="symbol2">+</span>
+						<span class="p2" wicket:id="addRate">7</span>
+						<span  class="symbol">%</span>
+					
+					</dt>
+					<dd>年化</dd>
+				</dl>
+				<dl class="dl_right">
+					<dt><span class="p1">21</span><span class="p2">天</span></dt>
+					<dd>年化</dd>
+				</dl>
+			</div>
+
+			<ul class="bar_cl">
+				<li>
+					<div class="box_cl">
+						<div class="sma_cl" style="width: 0%;"></div>
+					</div>
+				</li>
+				<li class="percent_cl">
+					<span class="span1_cl">142</span>
+					<span>/</span>
+					<span class="span2_cl">200</span>
+					<span style="color: #aaaaaa;">万</span>
+				</li>
+			</ul>
+			<p class="p_btn st1">立即投资</p>
+			<p class="p_btn st2">已抢光</p>
+			<p class="p_btn st3">已完成</p>
+			
+			
+		</section>
+
+		<section class="ranking_list">
+			<div class="ranking_head">投资排行榜</div>
+			<div class="ranking_box">
+				
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tbody class="table_body">
+					<tr>
+						<td><img src="img/vip1.png"/></td>
+						<td>15866662222</td>
+						<td>新手</td>
+						<td>358662元</td>
+					</tr>
+					<tr>
+						<td><img src="img/vip2.png"/></td>
+						<td>15866662222</td>
+						<td>VIP</td>
+						<td>158662元</td>
+					</tr>
+					<tr>
+						<td><img src="img/vip3.png"/></td>
+						<td>15866669900</td>
+						<td>VIP</td>
+						<td>158662元</td>
+					</tr>
+					<tr class="tr4">
+						<td class="list_h">4</td>
+						<td>15866661111</td>
+						<td>VIP</td>
+						<td>662元</td>
+					</tr>
+
+
+					</tbody>
+					<tfoot>
+						
+					</tfoot>
+				</table>
+			</div>
+		</section>
+
+	</body>
+
+</html>
+<script src="../js/jquery3.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function() {
+		//进度条动画
+		var zi = $('.percent_cl>.span1_cl').html()
+		var mu = $('.percent_cl>.span2_cl').html()
+		var w = (zi / mu) * 100
+
+		$('.sma_cl').animate({
+			width: w + '%'
+		}, 800)
+		//电话号码隐藏中间4位
+		$('table tr').each(function(i,x){
+			var tell=$(this).children().eq(1).html()
+			var tell2=tell.substr(0,3)+'****'+tell.substr(7,10)
+			$(this).children().eq(1).html(tell2)			
+		})
+		//复制假数据 排行榜
+		var html=$('.tr4').html();
+		console.log(html)
+		for (var i = 5; i < 50; i++) {
+			
+			$('tbody').append('<tr id='+i+'>'+html+'</tr>')
+			$('#'+i).find('td').eq(0).html(i)
+			
+		}
+		
+		
+		$('table tfoot').append($('.table_body').html());
+		var h=$('.ranking_box .table_body tr').length;
+		var remh=-h*1.6;
+		
+
+		//排行榜轮播
+/*		setInterval(function () {
+			$('.ranking_box>table').animate({
+			top:remh+'rem'
+			},10000,'linear',function () {
+				$('.ranking_box>table').css({top:0})
+			})
+		},0)*/
+
+	})
+</script>
+<style type="text/css">
+	
+	@-webkit-keyframes indexTop{
+		from{top:0}
+		to{top:-1000px;}
+	}
+
+	
+	@-moz-keyframes indexTop{
+		from{top:0}
+		to{top:-1000px;}
+	}
+	
+	@-ms-keyframes indexTop{
+		from{top:0}
+		to{top:-1000px;}
+	}
+	keyframes indexTop{
+		from{top:0}
+		to{top:-1000px;}
+	}
+	
+	.ranking_box table{
+		animation: indexTop 20s linear;
+	}
+</style>

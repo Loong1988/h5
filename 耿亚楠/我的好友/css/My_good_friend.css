@@ -1,0 +1,228 @@
+body{
+	background: #f7f7f7;
+}
+.htdd{
+	width: 16rem;
+	height: 6.25rem;
+
+}
+.cj_herder{
+	width: 16rem;
+	height: 2rem;
+	background: #f75831;
+	position: fixed;
+	top: 0;
+}
+.cj_herder img{
+	width: 0.375rem;
+	height: 0.65rem;
+	float: left;
+	margin-left: 0.5rem;
+	margin-top: 0.7rem;
+	position: absolute;
+ }
+.cj_herder h1{
+	text-align: center;
+	font-size: 0.8rem;
+	color: #fff;
+	line-height: 2rem;
+}
+.banner{
+	width: 16rem;
+	height: 6.25rem;
+	margin-top: 2rem;
+}
+.banner img{
+	width: 16rem;
+	height: 6.25rem;
+}
+.wdhy_gjn{
+	width: 16rem;
+	height: 3.4rem;
+	background: #f7f7f7;
+}
+.wdhy_gjn_o{
+	width: 6rem;
+	height: 2.8rem;
+	margin: 0 auto; 
+}
+.wdhy_gjn_o .o_l{
+	width: 1.8rem;
+	height: 2.8rem;
+	float: left;
+	
+	margin-top: 0.6rem;
+	margin-right: 0.25rem;
+	
+}
+.wdhy_gjn_o .o_l p{
+	text-align: center;
+	line-height: 2.8rem;
+	font-size: 2rem;
+	color: #222222;
+	font-weight: bold;
+	background: url(../images/jifenpai.png) no-repeat center;
+	background-size:1.8rem 2.8rem;
+}
+.bq_gjn{
+	width: 16rem;
+	height: 1.75rem;
+}
+.bq_gjn p{
+	text-align: center;
+	line-height: 1.75rem;
+	font-size: 0.6rem;
+	color: #666666;
+}
+.wd_gjn{
+	width: 16rem;
+	height: 2rem;
+	box-shadow: 0px 1px 3px #aaaaaa;
+	background: #fff;
+}
+.wd_gjn h6{
+	font-size: 0.65rem;
+	color: #444444;
+	line-height: 2rem;
+	margin-left: 0.5rem;
+	float: left;
+}
+.wd_gjn h6 img{
+	width: 0.95rem;
+	height: 0.95rem;
+	position: relative;
+	top: 0.2rem;
+	margin-right: 0.3rem;
+}
+.wd_gjn h5{
+	font-size: 0.65rem;
+	color: #666;
+	line-height: 2rem;
+	margin-right: 0.5rem;
+	float: right;
+}
+.cont{
+	width: 16rem;
+	height: 4.25rem;
+	background: #fff;
+    box-shadow:0px 1px 3px #aaaaaa;
+    margin-top: 0.6rem;
+} 
+.cont .cont_t{
+	width: 16rem;
+	height: 2.12rem;
+	border-bottom: 1px solid #f1f1f1;
+}
+.cont .cont_t h4{
+	font-size: 0.65rem;
+	color: #444444;
+	float: left;
+	line-height: 2.12rem;
+	margin-left: 0.5rem;
+}
+.cont .cont_t h4 span{
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	color: #e7e7e7;
+}
+.cont .cont_t h3{
+	margin-right: 0.5rem;
+	float: right;
+	line-height: 2.12rem;
+	color: #f75731;
+	font-size: 0.6rem;
+}
+.cont .cont_t h3 span{
+	font-size: 0.75rem;
+	color: #f75731;
+	font-weight: bold;
+}
+.cont_b{
+	width: 16rem;
+	height: 2.125rem;
+}
+.cont_b .cont_b_l{
+	width: 8rem;
+	height: 2.125rem;
+	float: left;
+}
+.cont_b .cont_b_l p{
+	text-align: center;
+	line-height: 2.125rem;
+	color: #aaaaaa;
+	font-size: 0.55rem;
+}
+.cont_b .cont_b_l p img{
+	width: 0.8rem;
+	height: 0.8rem;
+	position: relative;
+	top: 0.15rem;
+	margin-left: 0.3rem;
+}
+.kong{
+	width: 16rem;
+	height: 2rem;
+}
+.footer_yq{
+	position: fixed;
+	bottom: 0;
+	width:16rem;
+	height: 2rem;
+	background: #f75731;
+	border: 1px solid #f75731;
+    text-align: center;
+    color: #fff;
+    font-size: 0.7rem;
+    line-height: 2rem;
+}
+/* 弹出层 */
+.tcc{
+	width: 9.9rem;
+	height: 8.7rem;
+	background: #fff;
+	border-radius: 3px;
+	margin: 0 auto;
+	text-align: center;
+	position: fixed;
+	top: 10rem;
+	left: 3.05rem;
+	
+	display: none;
+	z-index: 20;
+}
+.tcc img{
+	width: 1.45rem;
+	height: 1.45rem;
+    margin-top: 0.9rem;
+}
+.tcc h6{
+	font-size: 0.6rem;
+	color: #444444;
+	margin-top: 0.9rem;
+}
+.tcc button{
+	width: 5.45rem;
+	height: 1.55rem;
+	text-align: center;
+	border-radius: 16px;
+	border: 1px solid #ccc;
+	color: #aaaaaa;
+	font-size: 0.6rem;
+	background: #fff;
+	margin-top: 0.9rem;
+}
+.tcc p{
+	font-size: 0.55rem;
+    color: #aaa;
+    margin-top: 0.6rem;
+}
+.gray_cl{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 10;
+	width: 16rem;
+	height: 100%;
+	display: none;
+}

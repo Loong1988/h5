@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<link href="css/common.css" rel="stylesheet" type="text/css"/>
+<link href="css/message_center.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/16+'px';	
+
+});
+</script>
+</head>
+<body>
+<div class="cj_herder">
+	<a href="#"><img src="images/fanhuojian_03.png"></a>
+	<h1>系统消息</h1>
+	<p class="sc_gb">删除</p>
+</div>
+<div class="sidebar">
+	<p>2016-09-23 10:30</p>
+</div>
+<div class="column">
+	<h6>注册成功</h6>
+	<p>监管员们的一天从日常盘点开始，早上9点钟他们来到质押物监管区域。</p>
+</div>
+<div class="sidebar">
+	<p>2016-09-23 10:30</p>
+</div>
+<div class="column">
+	<h6>投标成功</h6>
+	<p>监管员们的一天从日常盘点开始。早上开始。</p>
+</div>
+<div class="sidebar">
+	<p>2016-09-23 10:30</p>
+</div>
+<div class="column">
+	<h6>投标成功</h6>
+	<p>监管员们的一天从日常盘点开始。早上开始。</p>
+</div>
+<div class="sidebar">
+	<p>2016-09-23 10:30</p>
+</div>
+<div class="column">
+	<h6>投标成功</h6>
+	<p>监管员们的一天从日常盘点开始。早上开始。</p>
+</div>
+<div class="sidebar">
+	<p>2016-09-23 10:30</p>
+</div>
+<div class="column">
+	<h6>投标成功</h6>
+	<p>监管员们的一天从日常盘点开始。早上开始。</p>
+</div>
+<!-- 弹出层 -->
+<div class="joinus"></div>
+<div class="joinus1">
+	<p>确认删除此页消息？</p>
+	<div class="quxiao">取消</div>
+	<div class="shanchu">删除</div>
+</div>
+</body>
+<script>
+	/*获取按钮点击事件的class或id*/
+	$('.sc_gb').click(function () {
+		/*获取弹出框的class或id*/
+		$('.joinus1').show()
+		/*获取遮罩层的class或id*/
+		$('.joinus').show()
+	})
+	/*获取叉号按钮点击事件的class或id*/
+	$('.quxiao').click(function () {
+		$('.joinus1').hide()
+		$('.joinus').hide()
+	})
+	$('.shanchu').click(function () {
+		$('.joinus1').hide()
+		$('.joinus').hide()
+	})
+</script>
+</html>

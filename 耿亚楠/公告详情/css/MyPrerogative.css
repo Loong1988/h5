@@ -1,0 +1,48 @@
+body{
+	background: #f7f7f7;
+}
+.cj_herder{
+	width: 16rem;
+	height: 2rem;
+	background: #f75831;
+}
+.cj_herder img{
+	width: 0.375rem;
+	height: 0.65rem;
+	float: left;
+	margin-left: 0.5rem;
+	margin-top: 0.7rem;
+	position: absolute;
+ }
+.cj_herder h1{
+	text-align: center;
+	font-size: 0.8rem;
+	color: #fff;
+	line-height: 2rem;
+}
+.ggxq{
+	width: 15rem;
+	height: 4.125rem;
+	border-bottom: 1px solid #dddddd;
+	margin: 0 auto;
+}
+.ggxq h6{
+	font-size: 0.75rem;
+	color: #444444;
+	line-height: 1.1rem;
+	padding-top: 0.5rem;
+}
+.ggxq p{
+	font-size: 0.6rem;
+	color: #aaaaaa;
+	margin-top: 0.2rem;
+}
+.ggxq1{
+	width: 15rem;
+	height: auto;
+	margin: 0 auto;
+}
+.htdd {
+    width: 16rem;
+    height: 6.25rem;
+}

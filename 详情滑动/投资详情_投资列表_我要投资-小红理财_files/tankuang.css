@@ -1,0 +1,39 @@
+.tan{
+    width:16rem;
+    height:28.4rem;
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.5);
+    display:none;
+    z-index: 5;
+}
+.dengji img{
+    position: absolute;
+    width: 13.2rem;
+    height: 23rem;
+    background-size: 100% 100%;
+    margin-left: 1.4rem;
+    margin-top: 1rem;
+}
+#close{
+	position: absolute;
+	right: 1.38rem;
+    top: 2.8rem;
+    #right: 2.3rem;
+    #top: 2.3rem;
+    width:1.25rem;
+    height:1.25rem;
+}
+#btn{
+	/* position: absolute;
+    width:5.875rem;
+    height:1.8rem;
+    right: 1.7rem;
+    bottom: 4.9rem; */
+    position: absolute;
+    width: 5rem;
+    height: 1.8rem;
+    right: 2.2rem;
+    bottom: 4.9rem;
+}

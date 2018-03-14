@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>小红币规则</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<link href="css/common.css" rel="stylesheet" type="text/css"/>
+<link href="css/data_verification.css" rel="stylesheet" type="text/css"/>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/16+'px';	
+
+});
+</script>
+</head>
+<body>
+<div class="cj_herder">
+	<h1>资料审核</h1>
+</div>
+<div class="shzl_cont">
+	<div class="shzl_cont_t">
+		<h6>商家名称</h6>
+		<input type="text" placeholder="请输入完整商家名称">
+	</div>
+	<div class="shzl_cont_t">
+		<h6>联系方式</h6>
+		<input type="text" placeholder="请输入手机号或固定电话">
+	</div>
+	<div class="shzl_cont_o">
+		<h6>商家地址</h6>
+		<input type="text" placeholder="请输入您商户的地址">
+	</div>
+	<div class="shzl_cont_b">
+		<h6>商家分类</h6>
+		<div class="shzl_cont_b_l">
+			<div class="shzl_cont_b_l_l">
+				<div class="bg bg1"></div>
+				<p>供暖</p>
+		    </div>
+		    <div class="shzl_cont_b_l_l">
+				<div class="bg"></div>
+				<p>供暖</p>
+		    </div>
+		    <div class="shzl_cont_b_l_l">
+				<div class="bg"></div>
+				<p>供暖</p>
+		    </div>
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+<div class="shzl_hot">
+	<h6>商家名称</h6>
+	<input type="text" placeholder="请输入完整商家名称">
+</div>
+<div class="shzl_anniu">提交</div>
+<div class="shzl_wenan">
+	<h5>审核说明</h5>
+	<p>1.填写资料需真实有效，并与线下填写一致。</p>
+	<p>2.通过审核的商家方能开通扫码权限</p>
+	<p>3.审核周期为1-3天，审核提交后，您可在本页面查看审核进度。</p>
+</div>
+</body>
+</html>
+<script src="js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$('.shzl_cont_b_l_l').click(function () {
+		$('.shzl_cont_b_l_l').find('div').removeClass('bg1')
+		$(this).find('div').addClass('bg1')
+	})
+</script>

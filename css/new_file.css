@@ -1,0 +1,66 @@
+.pro .describe>img{
+	height: 9.75rem;
+	width: 100%;
+	
+}
+.pro .describe .p_tit{
+	height:2.1rem ;
+	font-size: 0.6rem;
+	text-align:center;
+	line-height: 2.1rem;
+}
+.describe_list>li{
+	height: 1.875rem;
+	line-height: 1.875rem;
+	padding: 0 1.2rem;
+	color: #666666;
+	font-size: 0.675rem;
+	background: #ffffff;
+}
+.describe_list>li>span:nth-child(1){
+float: left;
+}.describe_list>li>span:nth-child(2){
+float: right;
+}
+.describe_list>li:nth-child(2n+1){
+	background: #f7f7f7;
+}
+.allcl .file  dt{
+	height: 17.5rem;
+	width: 13rem;
+	border:1px solid #CCCCCC;
+	margin: auto;
+}
+.allcl{padding-bottom: 3.3rem;}
+.file>dl:nth-last-child dd{
+	color: red;
+}
+.allcl .file  dd{
+    margin: 0.6rem 0 1rem 0;
+	    text-align: center;
+	    font-size: 0.6rem;
+	    color: #666666;
+}
+.allcl .file  dt img{
+	height: 17.5rem;
+	width: 13rem;
+}
+.Hint ul li{
+	 font-size: 0.6rem;
+	  color: #646464;
+	   margin-top: 0.75rem;
+	 padding: 0 1rem;
+	    background: url(../img/cr4.png) no-repeat;
+background-position: 0.4rem 0.175rem;  
+background-size:0.25rem 0.25rem ;
+}
+	.dis ul li{
+	 font-size: 0.6rem;
+	  color: #646464;
+	   margin-top: 0.75rem;
+	 padding: 0 1rem;
+	    background: url(../img/cr4.png) no-repeat;
+background-position: 0.4rem 0.175rem;  
+background-size:0.25rem 0.25rem ;
+}
+

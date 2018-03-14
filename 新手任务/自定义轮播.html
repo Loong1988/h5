@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>me</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<script>
+			var iWidth = document.documentElement.clientWidth;
+
+			document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+		</script>
+<style type="text/css">
+*{margin: 0; padding: 0;}
+	section{width: 48rem;overflow: hidden; height: 28rem;
+	position: relative;
+	left: 20px;
+	margin-left;0;
+	}
+	section>div{width: 16rem;
+		float: left;
+	}
+	section>div>img{width: 100%;}
+	.box{overflow: hidden;}
+</style>
+	</head>
+
+	<body>
+	<div class="box">	
+	  <section id="small">
+	  	<div><img src="img/mission11.png" alt="" /></div>
+	   	<div><img src="img/mission22.png" alt="" /></div>
+	    <div><img src="img/mission33.png" alt="" /></div>
+	  </section>
+	  
+	</div>
+	</body>
+
+</html>
+<script src="../js/jquery-2.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+var juli=0;
+var obj=document.querySelector('.box');
+var se=document.getElementById('small')
+
+obj.addEventListener('touchstart', function(event) {
+     //手指放到屏幕上时触发
+    if (event.targetTouches.length == 1) {
+　　　　 event.preventDefault();// 阻止浏览器默认事件，重要 
+        var touch = event.targetTouches[0];
+        // 把元素放在手指所在的位置
+       var a1 =  parseInt(touch.pageX)
+       // obj.style.top = touch.pageY-50 + 'px';
+    	juli=a1
+    	//console.log(juli)
+        }
+});
+
+obj.addEventListener('touchmove', function(event) {
+       //手指在屏幕上滑动式触发
+    if (event.targetTouches.length == 1) {
+　　　　 event.preventDefault();// 阻止浏览器默认事件，重要 
+        var touch = event.targetTouches[0];
+        // 把元素放在手指所在的位置
+       var b1 = parseInt(touch.pageX)
+       // obj.style.top = touch.pageY-50 + 'px';
+      		c=b1-juli;
+      		
+      		console.log('移动的距离'+c);
+      		
+      		se.style.Left=500
+      		
+      		
+        }
+},false);
+
+obj.addEventListener('touchend', function(event) {
+	c2=Math.abs(c)
+	//console.log(c2+'移动的绝对值')
+});
+</script>

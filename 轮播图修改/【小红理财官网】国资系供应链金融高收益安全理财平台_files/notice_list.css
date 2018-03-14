@@ -1,0 +1,58 @@
+.zx_banner{
+	width: 100%;
+	height: 240px;
+}
+.zx_banner img{
+	width: 100%;
+	height: 240px;
+}
+.zx_box{
+	width: 100%;
+	height: auto;
+}
+
+.xw_cont{
+	width: 1010px;
+	margin: 0 auto;
+	border-top: 2px solid #cfcfcf;
+	border-bottom: 1px dashed #d3d3d3;
+}
+
+.xw_cont .xw_cont_r_t{
+	width: 1010px;
+	height: 60px;
+}
+.xw_cont .xw_cont_r_t .zxgg{
+	#float: left;
+	font-size: 20px;
+	color: #646464;
+	margin-left: 14px;
+	line-height: 60px;
+	text-decoration: none;
+}
+.xw_cont .xw_cont_r_t .zxgg img{
+	position: relative;
+	top: -2px;
+	margin-right: 20px;
+}
+.xw_cont .xw_cont_r_t .zxgg span{
+	font-size: 16px;
+	color: #c8c8c8;
+	margin-left: 30px;
+}
+.xw_cont .xw_cont_r_t .ckxq{
+    display: block;
+    width: 110px;
+    height: 30px;
+    background: url(../../../images/xhlc/commonNotice/ddet_03.png) no-repeat center;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    float: right;
+    margin-top: 13px;
+}
+.xw_cont .xw_cont_r_t .ckxq:hover{
+	 background: url(../../../images/xhlc/commonDetail/ckxq1.png) no-repeat center;
+}

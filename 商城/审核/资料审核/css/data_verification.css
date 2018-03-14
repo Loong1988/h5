@@ -1,0 +1,164 @@
+/* 公共头部 */
+body{
+	background: #eee;
+}
+.htdd{
+	width: 100%;
+	height: 6.25rem;
+
+}
+.cj_herder{
+	width: 100%;
+	height: 2rem;
+	background: #f75731;
+}
+.cj_herder h1{
+	text-align: center;
+	font-size: 0.7rem;
+	color: #fff;
+	line-height: 2rem;
+}
+.shzl_cont{
+	width: 100%;
+	height: 11.7rem;
+	background: #fff;
+	margin-top: 0.5rem;
+}
+.shzl_cont .shzl_cont_t{
+	width: 100%;
+	height: 2rem;
+	border-bottom: 1px solid #eeeeee;
+}
+.shzl_cont .shzl_cont_t h6{
+	font-size: 0.65rem;
+	color: #444444;
+	line-height: 2rem;
+	margin-left: 0.5rem;
+	float: left;
+}
+.shzl_cont .shzl_cont_t input{
+	width: 60%;
+	height: 2rem;
+	line-height: 2rem;
+	border: none;
+	float: right;
+	text-align: right;
+	margin-right: 0.5rem;
+	font-size: 0.65rem;
+}
+.shzl_cont .shzl_cont_o{
+	width: 100%;
+	height: 3.4rem;
+	border-bottom: 1px solid #eeeeee;
+}
+.shzl_cont .shzl_cont_o h6{
+	font-size: 0.65rem;
+	color: #444444;
+	margin-left: 0.5rem;
+	margin-top: 0.75rem;
+	margin-bottom: 0.25rem;
+}
+.shzl_cont .shzl_cont_o input{
+	width: 80%;
+	height: 2rem;
+	border: none;
+	font-size: 0.65rem;
+	margin-left: 0.5rem;
+}
+.shzl_cont .shzl_cont_b{
+	width: 100%;
+	height: 3.4rem;
+}
+.shzl_cont .shzl_cont_b h6{
+	font-size: 0.65rem;
+	color: #444444;
+	margin-left: 0.5rem;
+	line-height: 2rem;
+}
+.shzl_cont .shzl_cont_b .shzl_cont_b_l{
+    width: 90%;
+    height: 1.3rem;
+    margin-left: 0.5rem;
+}
+.shzl_cont .shzl_cont_b .shzl_cont_b_l .shzl_cont_b_l_l{
+	margin-right:1rem;
+	width: 3.5rem;
+	float: left;
+}
+.shzl_cont .shzl_cont_b .shzl_cont_b_l .shzl_cont_b_l_l .bg{
+	width: 0.65rem;
+	height: 0.65rem;
+	background: url(../images/weixuan.png) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	margin-right: 0.3rem;
+	margin-top: 0.12rem;
+}
+.shzl_cont .shzl_cont_b .shzl_cont_b_l .shzl_cont_b_l_l .bg1{
+	width: 0.65rem;
+	height: 0.65rem;
+	background: url(../images/xuan.png) no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	margin-right: 0.3rem;
+	margin-top: 0.12rem;
+}
+.shzl_cont .shzl_cont_b .shzl_cont_b_l .shzl_cont_b_l_l p{
+	font-size: 0.65rem;
+	color: #222222;
+}
+
+.shzl_hot{
+	width: 100%;
+	height: 2rem;
+	border-bottom: 1px solid #eeeeee;
+	background: #fff;
+	margin-top: 0.5rem;
+}
+.shzl_hot h6{
+	font-size: 0.65rem;
+	color: #444444;
+	line-height: 2rem;
+	margin-left: 0.5rem;
+	float: left;
+}
+.shzl_hot input{
+	width: 60%;
+	height: 2rem;
+	line-height: 2rem;
+	border: none;
+	float: right;
+	text-align: right;
+	margin-right: 0.5rem;
+	font-size: 0.65rem;
+}
+.shzl_anniu{
+	width: 8.75rem;
+	height: 2rem;
+	background: #f75731;
+	margin: 0 auto;
+	border-radius: 25px;
+	margin-top: 0.5rem;
+	text-align: center;
+	line-height: 2rem;
+	font-size: 0.65rem;
+	color: #fff;
+}
+.shzl_wenan{
+	width: 90%;
+	margin-left: 0.5rem; 
+	margin-top: 1rem;
+}
+.shzl_wenan h5{
+	font-size: 0.55rem;
+	color: #222222;
+	margin-bottom: 0.2rem;
+}
+.shzl_wenan p{
+	font-size: 0.55rem;
+	color: #666666;
+	line-height: 1rem;
+}
+.shzl_anniu:active{
+	    background: #de4f2c!important;
+}
